@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #1a1919;
+}
+
 /* Header */
 header {
     background-color: #f5dec6;
