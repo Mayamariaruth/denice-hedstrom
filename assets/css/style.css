@@ -1,6 +1,9 @@
+/* Google Fonts Styles */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=EB+Garamond&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
 /* Header */
 header {
-    background-color: #ffd8be;
+    background-color: #f5dec6;
 }
 
 /* Main content */
@@ -9,5 +12,5 @@ header {
 
 /* Footer */
 footer {
-    background-color: #ffd8be;
+    background-color: #f5dec6;
 }
