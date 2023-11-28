@@ -11,12 +11,14 @@ body {
     display: flex;
     flex-direction: column;
     color: #1a1919;
+    font-family: 'Eb Garamond', serif;
 }
 
 /* Header */
 header {
-    background-color: #f5dec6;
-    font-family: 'eb garamond', serif;
+    background-color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
 }
 
 /* Main content */
