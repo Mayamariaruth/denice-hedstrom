@@ -23,43 +23,43 @@ header {
     padding: 0.5rem 0.5rem;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 9px;
 }
 
 ul {
     display: flex;
-    
-
-}
-h1 {
-    font-size: 2rem;
-    font-weight: 600;
+    justify-content: center;
+    gap: 13px;
 }
 
 #menu {
     list-style-type: none;
-    align-self: baseline;
+    font-size: 1.5rem;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-    font-size: 1.2rem;
-    list-style-type: none;
 }
 
 .current {
-    border-bottom: solid 1px #373d3f;
+    border-bottom: solid 1px #373d3f;}
 
+#socials {
+    list-style-type: none;
+    font-size: 1.3rem;
 }
 
 /* Main content */
 main {
-    background-color: aqua;
-}
-
+    background-color: aqua;}
 
 /* Footer */
 footer {
-    background-color: #f5dec6;
-}
+    background-color: #f5dec6;}
