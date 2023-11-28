@@ -18,18 +18,27 @@ body {
 header {
     background-color: white;
     font-family: 'Cormorant Garamond', serif;
+    position: fixed;
+    z-index: 99;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+}
+
+h1 {
+    font-size: x-large;
 }
 
 #logo {
 font-weight: 400;
 }
 
-nav {
-    
+nav {  
 }
 
 /* Main content */
-
+main {
+    background-color: aqua;
+}
 
 
 /* Footer */
