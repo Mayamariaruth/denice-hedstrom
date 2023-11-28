@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #1a1919;
+    color: #373d3f;
     font-family: 'Eb Garamond', serif;
 }
 
@@ -22,17 +22,24 @@ header {
     z-index: 99;
     padding: 0.5rem 0.5rem;
     width: 100%;
+    display: flex;
 }
 
 h1 {
-    font-size: x-large;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
-#logo {
-font-weight: 400;
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+    list-style-type: none;
 }
 
-nav {  
+.current {
+    border-bottom: solid 1px #373d3f;
+
 }
 
 /* Main content */
