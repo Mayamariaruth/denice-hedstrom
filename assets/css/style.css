@@ -23,6 +23,8 @@ header {
     padding: 0.5rem 0.5rem 0;
     width: 100%;
    box-shadow: 0 2px 2px #2e2b2b54;
+   display: flex;
+   align-items: center;
 }
 
 h1 {
@@ -31,8 +33,8 @@ h1 {
     padding-bottom: 9px;
 }
 
-#center-text {
-   padding-left: 4rem;
+#logo {
+    text-align: center;
 }
 
 #menu {
@@ -54,6 +56,13 @@ header a {
     font-size: 1.3rem;
 }
 
+nav > ul {
+
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
 /* Navbar dropdown toggle styling (credit: CI Love running project) */
 nav {
     position: absolute;
@@ -63,19 +72,20 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #2e2b2b54;
     display: none;
+    top: 100%;
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-    gap: 17px;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-#nav-toggle-button {
-    display: flex;
-
+#nav-toggle {
+    display: none;
 }
 
+.nav-toggle-button {
+    font-size: 2.5rem;
+}
 
 /* Main content */
 main {
