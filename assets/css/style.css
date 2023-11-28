@@ -18,7 +18,14 @@ body {
 header {
     background-color: white;
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 400;
+}
+
+#logo {
+font-weight: 400;
+}
+
+nav {
+    
 }
 
 /* Main content */
