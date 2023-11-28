@@ -11,13 +11,13 @@ body {
     display: flex;
     flex-direction: column;
     color: #373d3f;
-    font-family: 'Eb Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
 }
 
 /* Header */
 header {
     background-color: white;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     position: fixed;
     z-index: 99;
     padding: 0.5rem 0.5rem;
@@ -26,9 +26,8 @@ header {
     flex-direction: column;}
 
 h1 {
-    font-size: 2.3rem;
-    font-weight: 600;
-    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
     padding-bottom: 9px;
 }
 
@@ -49,17 +48,25 @@ header a {
 }
 
 .current {
-    border-bottom: solid 1px #373d3f;}
+    border-bottom: solid 1px #373d3f;
+}
 
 #socials {
     list-style-type: none;
     font-size: 1.3rem;
+    padding-top: 5px;
 }
 
 /* Main content */
 main {
-    background-color: aqua;}
+    background-color: aqua;
+/* Make main element take up surplus space to push footer down (credit: CI Love running project) */
+flex: 1 0 auto;
+margin-top: 125px;
+}
 
 /* Footer */
 footer {
-    background-color: #f5dec6;}
+    background-color: white;
+
+}
