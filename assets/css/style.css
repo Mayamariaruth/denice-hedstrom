@@ -20,7 +20,7 @@ header {
     font-family: 'Bodoni Moda', serif;
     position: fixed;
     z-index: 99;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem 0;
     width: 100%;
    box-shadow: 0 2px 2px #2e2b2b54;
 }
@@ -54,7 +54,7 @@ header a {
     font-size: 1.3rem;
 }
 
-/* Navbar dropdown toggle styling */
+/* Navbar dropdown toggle styling (credit: CI Love running project) */
 nav {
     position: absolute;
     background-color: white;
@@ -62,7 +62,20 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #2e2b2b54;
+    display: none;
 }
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+#nav-toggle-button {
+    display: flex;
+
+}
+
 
 /* Main content */
 main {
