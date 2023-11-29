@@ -84,7 +84,7 @@ nav {
 
 /* Main content */
 main {
-
+background-color: rgba(164, 139, 114, 1)
 /* Make main element take up surplus space to push footer down (credit: CI Love running project) */
 flex: 1 0 auto;
 margin-top: 125px;
@@ -125,6 +125,9 @@ footer {
 
 #meditation-button {
     background-color: rgba(164, 139, 114, 1);
+    font-size: 15px;
+    padding: 7px 8px;
+    border-radius: 30px;
 }
 
 /* Media query: Tablets and larger (768px and up) */
