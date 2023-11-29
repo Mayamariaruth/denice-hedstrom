@@ -98,8 +98,22 @@ margin-top: 125px;
 
 .centered-text {
     text-align: center;
-    padding-top: 6%;
-    color: black;
+    padding-top: 9%;
+    color: #362317;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.color-text-box {
+    background-color: rgba(164, 139, 114, 0.6);
+    position: absolute;
+    width: 90%;
+    bottom: 29%;
+    left: 5%;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: montserrat, serif;
+    color: white;
 }
 
 /* Footer */
