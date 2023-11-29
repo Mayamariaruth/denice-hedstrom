@@ -85,6 +85,7 @@ nav {
 /* Main content */
 main {
 background-color: rgba(164, 139, 114, 1)
+
 /* Make main element take up surplus space to push footer down (credit: CI Love running project) */
 flex: 1 0 auto;
 margin-top: 125px;
@@ -120,17 +121,21 @@ margin-top: 125px;
 /* Footer */
 footer {
     text-align: center;
-    background-color: yellow;
+    background-color: white;
 }
 
 footer > h2 {
     font-size: 20px;
+    padding-top: 10px;
 }
 
 #meditation-text {
     font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
+/* ALIGN THE TEXT A LITTLE BIT MORE !! */
 #meditation-button {
     background-color: rgba(164, 139, 114, 1);
     font-size: 13px;
@@ -141,6 +146,14 @@ footer > h2 {
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+header {
+    
+}   
+
+.nav-toggle-button {
+    display: flex;
+
+}
 }
 
 /* Media query: Tablets and larger (992px and up) */
