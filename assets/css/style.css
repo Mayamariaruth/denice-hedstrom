@@ -84,12 +84,13 @@ nav {
 
 /* Main content */
 main {
+
 /* Make main element take up surplus space to push footer down (credit: CI Love running project) */
 flex: 1 0 auto;
 margin-top: 125px;
 }
 
-/* Hero image styles (credit: CI Love running project) */
+/* Hero image styles */
 .hero-image {
     background: url(../images/hero-image-mobile.jpg) no-repeat center center/cover;
     width: 100%;
@@ -118,6 +119,21 @@ margin-top: 125px;
 
 /* Footer */
 footer {
-    background-color: white;
     text-align: center;
+    background-color: yellow;
+}
+
+#meditation-button {
+    background-color: rgba(164, 139, 114, 1);
+}
+
+/* Media query: Tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Media query: Tablets and larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+
 }
