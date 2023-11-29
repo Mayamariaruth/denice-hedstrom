@@ -123,10 +123,18 @@ footer {
     background-color: yellow;
 }
 
+footer > h2 {
+    font-size: 20px;
+}
+
+#meditation-text {
+    font-size: 15px;
+}
+
 #meditation-button {
     background-color: rgba(164, 139, 114, 1);
-    font-size: 15px;
-    padding: 7px 8px;
+    font-size: 13px;
+    padding: 4px;
     border-radius: 30px;
 }
 
