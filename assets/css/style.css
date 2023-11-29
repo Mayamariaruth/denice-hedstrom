@@ -35,7 +35,7 @@ h1 {
 
 #menu {
     list-style-type: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 header a {
@@ -119,5 +119,5 @@ margin-top: 125px;
 /* Footer */
 footer {
     background-color: white;
-
+    text-align: center;
 }
