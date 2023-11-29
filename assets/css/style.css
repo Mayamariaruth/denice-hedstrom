@@ -146,19 +146,43 @@ footer > h2 {
 @media screen and (min-width: 768px) {
 
 .nav-toggle-button {
-    margi
-n-left: 40%;
+    margin-left: 40%;
 }   
+
+nav {
+    height: 3rem;
+}
 
 nav > ul {
     display: flex;
+    justify-content: flex-start;
     gap: 17px;
+    padding-top: 6px;
 }
 
 #socials {
     display: flex;
     justify-content: end;
+    position: relative;
+    bottom: 38px;
 }
+
+.hero-image {
+    position: relative;
+    bottom: 3.3rem
+}
+
+.centered-text {
+    font-size: 23px;
+    padding-top: 30px;
+}
+
+.color-text-box {
+    width: 70%;
+    font-size: 25px;
+    left: 15%;
+}
+
 }
 
 /* Media query: Tablets and larger (992px and up) */
