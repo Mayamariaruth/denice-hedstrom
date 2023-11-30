@@ -117,6 +117,7 @@ main {
     margin-top: 125px;
 }
 
+/* TO BE COMPLETED!! */
 .container {
     display: flex;
     flex-direction: row-reverse;
@@ -140,6 +141,7 @@ hr {
     margin: 20px 0 20px 40px;
 }
 
+/* TO BE COMPLETED!! */
 #about-text {
 
 }
@@ -174,28 +176,29 @@ footer > h2 {
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-.nav-toggle-button {
-    margin-left: 40%;
-}   
-
+/* Header (credit: CI Love running project) */
 nav {
-    height: 3rem;
+    display: block;
+    position: relative;
+    width: fit-content;
+    box-shadow: none;
+    padding-left: 5rem;
 }
 
-nav > ul {
+#menu {
     display: flex;
-    justify-content: flex-start;
-    gap: 17px;
-    padding-top: 6px;
+}
+
+.nav-toggle-button {
+    display: none;
 }
 
 #socials {
-    display: flex;
-    justify-content: end;
-    position: relative;
-    bottom: 38px;
+    display: none;
 }
 
+
+/* Main Content */
 .hero-image {
     position: relative;
     bottom: 3.3rem
@@ -216,10 +219,51 @@ nav > ul {
     margin-bottom: 35px;
 }
 
+/* Footer */
+.socials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#socials-text {
+    font-family: montserrat, serif;
+    font-size: 13px;
+}
+
+#socials-footer {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    right: 10%;
+    font-size: 18px;
+}
+
 }
 
 /* Media query: Tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
-
+/* Header (credit: CI Love running project) */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+        padding-left: 5rem;
+}
+    
+    #menu {
+        display: flex;
+}
+    
+    .nav-toggle-button {
+        display: none;
+}
+    
+    #socials {
+        display: none;
+}
 
 }
