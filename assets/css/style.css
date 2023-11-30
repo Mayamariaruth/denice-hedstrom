@@ -82,13 +82,6 @@ nav {
     font-size: 2.5rem;
 }
 
-/* Main content */
-main {
-/* Make main element take up surplus space to push footer down (credit: CI Love running project) */
-flex: 1 0 auto;
-margin-top: 125px;
-}
-
 /* Hero image styles */
 .hero-image {
     background: url(../images/hero-image-mobile.jpg) no-repeat center center/cover;
@@ -114,6 +107,30 @@ margin-top: 125px;
     padding: 0.5rem;
     font-family: montserrat, serif;
     color: white;
+}
+
+/* Main content */
+main {
+/* Make main element take up surplus space to push footer down (credit: CI Love running project) */
+    flex: 1 0 auto;
+    margin-top: 125px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#purpose-image {
+    height: 570px;
+}
+
+#purpose-text {
+
+}
+
+#about-text {
+
 }
 
 /* Footer */
