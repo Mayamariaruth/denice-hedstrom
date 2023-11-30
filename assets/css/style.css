@@ -111,6 +111,7 @@ nav {
 
 /* Main content */
 main {
+    background-color: rgb(233, 193, 137, 0.5);
 /* Make main element take up surplus space to push footer down (credit: CI Love running project) */
     flex: 1 0 auto;
     margin-top: 125px;
@@ -123,10 +124,20 @@ main {
 
 #purpose-image {
     height: 570px;
+    position: relative;
+    bottom: 20px;
 }
 
 #purpose-text {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    margin-right: 75px;
+}
 
+hr {
+    width: 80%;
+    margin: 20px 0 20px 40px;
 }
 
 #about-text {
@@ -136,7 +147,8 @@ main {
 /* Footer */
 footer {
     text-align: center;
-    background-color: white;
+    background-color: rgb(233, 193, 137, 0.2);
+    box-shadow: 0 2px 20px #2e2b2b54;
 }
 
 footer > h2 {
@@ -198,6 +210,10 @@ nav > ul {
     width: 70%;
     font-size: 25px;
     left: 15%;
+}
+
+#about-text {
+    margin-bottom: 35px;
 }
 
 }
