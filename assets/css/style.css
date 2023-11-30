@@ -141,10 +141,11 @@ hr {
     margin: 20px 0 20px 40px;
 }
 
-/* TO BE COMPLETED!! */
+/* TO BE COMPLETED!!
 #about-text {
 
 }
+*/
 
 /* Footer */
 footer {
@@ -164,13 +165,17 @@ footer > h2 {
     padding-bottom: 15px;
 }
 
-/* ALIGN THE TEXT A LITTLE BIT MORE !! */
 #meditation-button {
     background-color: rgba(164, 139, 114, 1);
     font-size: 13px;
     padding: 4px;
     border-radius: 30px;
     margin-bottom: 1rem;
+}
+
+#button-text {
+    position: relative;
+    bottom: 2px;
 }
 
 /* Media query: Tablets and larger (768px and up) */
@@ -241,29 +246,55 @@ nav {
     font-size: 18px;
 }
 
+footer i {
+    color: black;
 }
 
-/* Media query: Tablets and larger (992px and up) */
+}
+
+/* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+
 /* Header (credit: CI Love running project) */
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        box-shadow: none;
-        padding-left: 5rem;
+nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+    box-shadow: none;
+    padding-left: 40%;
 }
     
-    #menu {
-        display: flex;
+#menu {
+    display: flex;
+    position: relative;
+    top: 28px
 }
     
-    .nav-toggle-button {
-        display: none;
+.nav-toggle-button {
+    display: none;
 }
     
-    #socials {
-        display: none;
+#socials {
+    display: flex;
+    position: relative;
+    left: 80%;
+    bottom: 5px;
+}
+
+
+/* Footer */
+footer i {
+    color: black;
+}
+
+#socials-text {
+    position: relative;
+    left: 9rem;
+}
+
+#socials-footer {
+    position: relative;
+    right: 9%;
 }
 
 }
