@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* General styles */
 body {
     min-height: 100vh;
@@ -13,7 +12,6 @@ body {
     color: #373d3f;
     font-family: 'Bodoni Moda', serif;
 }
-
 /* Header */
 header {
     background-color: white;
@@ -26,38 +24,31 @@ header {
    display: flex;
    align-items: center;
 }
-
 h1 {
     font-size: 1.7rem;
     font-weight: 500;
     padding-bottom: 9px;
 }
-
 #menu {
     list-style-type: none;
     font-size: 1.3rem;
 }
-
 header a {
     text-decoration: none;
     color: inherit;
 }
-
 .current {
     border-bottom: solid 1px #373d3f;
 }
-
 #socials {
     list-style-type: none;
     font-size: 1.5rem;
 }
-
 nav > ul {
     display: flex;
     justify-content: center;
     gap: 17px;
 }
-
 /* Navbar dropdown toggle styling (credit: CI Love running project) */
 nav {
     position: absolute;
@@ -69,21 +60,17 @@ nav {
     display: none;
     top: 100%;
 }
-
 #nav-toggle:checked~nav {
     display: block;
 }
-
 #nav-toggle {
     display: none;
 }
-
 .nav-toggle-button {
     font-size: 2.1rem;
     margin-left: 0.9rem;
     margin-bottom: 8px;
 }
-
 /* Hero image styles */
 .hero-image {
     background: url(../images/hero-image-mobile.jpg) no-repeat center center/cover;
@@ -93,7 +80,6 @@ nav {
     position: relative;
     bottom: 3.5rem;
 }
-
 .centered-text {
     text-align: center;
     padding-top: 7%;
@@ -101,7 +87,6 @@ nav {
     font-size: large;
     text-transform: uppercase;
 }
-
 .color-text-box {
     background-color: rgba(164, 139, 114, 0.6);
     position: absolute;
@@ -113,7 +98,6 @@ nav {
     font-family: montserrat, serif;
     color: white;
 }
-
 /* Main content */
 main {
     background-color: rgb(233, 193, 137, 0.5);
@@ -121,26 +105,22 @@ main {
     flex: 1 0 auto;
     margin-top: 125px;
 }
-
 /* TO BE COMPLETED!! */
 .container {
     display: flex;
     flex-direction: row-reverse;
 }
-
 #purpose-image {
     height: 570px;
     position: relative;
     bottom: 20px;
 }
-
 #purpose-text {
     text-align: center;
     position: relative;
     bottom: 20px;
     margin-right: 75px;
 }
-
 hr {
     width: 80%;
     margin: 20px 0 20px 40px;
@@ -158,20 +138,17 @@ footer {
     background-color: rgb(233, 193, 137, 0.2);
     box-shadow: 0 2px 20px #2e2b2b54;
 }
-
 footer > h2 {
     font-size: 20px;
     padding-top: 10px;
 }
-
 #meditation-text {
     font-size: 15px;
     padding-top: 10px;
     padding-bottom: 15px;
 }
-
 #meditation-button {
-    background-color: rgba(164, 139, 114, 1);
+    color: rgba(164, 139, 114, 1); /* BUTTON COLOR NOT SHOWING?*/
     font-size: 13px;
     padding: 4px;
     border-radius: 30px;
@@ -181,61 +158,58 @@ footer > h2 {
     position: relative;
     bottom: 2px;
 }
+footer i {
+    color: black;
+}
 #socials-footer {
     list-style-type: none;
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 2rem;
-    color: black;
+    font-size: 1.3rem;
 }
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
 /* Header (credit: CI Love running project) */
 nav {
-    display: block;
-    position: relative;
-    width: fit-content;
-    box-shadow: none;
-    padding-left: 5rem;
-}
-
-#menu {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    width: 40%;
+    box-shadow: none;
+    padding-left: 8rem;
 }
-
+#menu {
+    position: relative;
+    top: 1rem;
+}
+#socials {
+    position: relative;
+    left: 120%;
+    bottom: 1rem;
+}
 .nav-toggle-button {
     display: none;
 }
-
-#socials {
-    display: none;
-}
-
-
 /* Main Content */
 .hero-image {
     position: relative;
     bottom: 3.3rem
 }
-
 .centered-text {
     font-size: 23px;
     padding-top: 30px;
 }
-
 .color-text-box {
     width: 70%;
     font-size: 25px;
     left: 15%;
 }
-
 #about-text {
     margin-bottom: 35px;
 }
-
 /* Footer */
 .socials-container {
     display: flex;
@@ -243,12 +217,10 @@ nav {
     justify-content: space-evenly;
     align-items: center;
 }
-
 #socials-text {
     font-family: montserrat, serif;
     font-size: 13px;
 }
-
 #socials-footer {
     list-style-type: none;
     display: flex;
@@ -257,16 +229,12 @@ nav {
     right: 10%;
     font-size: 18px;
 }
-
 footer i {
     color: black;
 }
-
 }
-
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-
 /* Header (credit: CI Love running project) */
 nav {
     display: block;
@@ -274,38 +242,28 @@ nav {
     width: fit-content;
     box-shadow: none;
     padding-left: 40%;
-}
-    
+}  
 #menu {
     display: flex;
     position: relative;
     top: 28px
-}
-    
+}  
 .nav-toggle-button {
     display: none;
-}
-    
+}   
 #socials {
     display: flex;
     position: relative;
     left: 80%;
     bottom: 5px;
 }
-
 /* Footer */
-footer i {
-    color: black;
-}
-
 #socials-text {
     position: relative;
     left: 9rem;
 }
-
 #socials-footer {
     position: relative;
     right: 9%;
 }
-
 }
