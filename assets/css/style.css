@@ -223,7 +223,7 @@ nav {
 .nav-toggle-button {
     display: none;
 }
-/* Main Content */
+/* Hero image */
 .hero-image {
     height: 700px;
 }
@@ -236,8 +236,27 @@ nav {
     font-size: 25px;
     left: 15%;
 }
-#about-text {
-    margin-bottom: 35px;
+/* Main Content */
+.container-mission{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+#mission-image {
+    height: 540px;
+    margin-left: 0.8rem;
+}
+.mission-text {
+    margin-left: 2rem;
+}
+#about-heading {
+    position: static;
+    margin-left: 8.5rem;
+}
+#about-image {
+    margin-bottom: 2rem;
+    height: 540px;
+    padding-right: 12.7rem;
 }
 /* Footer */
 .socials-container {
