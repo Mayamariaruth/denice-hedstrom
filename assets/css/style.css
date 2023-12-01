@@ -117,13 +117,11 @@ main {
     position: relative;
     bottom: 20px;
 }
-#purpose-text {
+.purpose-text {
     margin-top: 2.5rem;
     text-align: center;
-    position: relative;
-    bottom: 20px;
     margin-right: 75px;
-    border-bottom: solid 1px ;
+    padding-bottom: 3rem;
 }
 #mission-heading {
     text-transform: uppercase;
@@ -131,6 +129,10 @@ main {
     font-size: 1.4rem;
     border: solid 1px #412a1b;
     color: #412a1b;
+}
+.border-bottom {
+    border-bottom: solid 1px #412a1b;
+    padding: 1.2rem 0;
 }
 /* TO BE COMPLETED!!
 #about-text {
