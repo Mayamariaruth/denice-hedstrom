@@ -148,6 +148,9 @@ main {
 .about-text {
     text-align: center;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #about-heading {
     text-transform: uppercase;
@@ -155,8 +158,7 @@ main {
     font-size: 1.4rem;
     border: solid 1px #412a1b;
     color: #412a1b;
-    width: 60%;
-    margin-left: 4.1rem;
+    width: 14rem;
 }
 #margin-top {
     margin-top: 1rem;
@@ -164,7 +166,6 @@ main {
 #about-image {
     height: 470px;
     margin-bottom: 1rem;
-    padding-right: 2rem;
 }
 /* Footer */
 footer {
@@ -241,8 +242,8 @@ nav {
 /* Main Content */
 .container-mission{
     flex-direction: row-reverse;
-    align-items: center;
     justify-content: center;
+    margin: 1rem 1rem 0 1rem;
 }
 #mission-image {
     height: 540px;
@@ -251,14 +252,9 @@ nav {
 .mission-text {
     margin-left: 2rem;
 }
-#about-heading {
-    position: static;
-    margin-left: 8.5rem;
-}
 #about-image {
     margin: 1rem 0 2rem;
     height: 540px;
-    padding-right: 12.7rem;
 }
 /* Footer */
 .socials-container {
@@ -291,6 +287,25 @@ nav {
 }    
 #menu, #socials {
     font-size: 1.4rem;
+}
+/* Main content */
+.mission-container {
+    gap: 2.8rem;
+}
+.mission-text {
+    font-size: 1.3rem;
+}
+#mission-heading {
+    font-size: 1.8rem;
+}
+#mission-image {
+    height: 650px;
+}
+.about-text {
+    font-size: 1.3rem;
+}
+#about-heading {
+    font-size: 1.8rem;
 }
 }
 /* Footer */
