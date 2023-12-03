@@ -431,7 +431,7 @@ td {
     width: auto;
 }
 /* Footer */
-footer > h2 {
+h4 {
     font-size: 1.4rem;
 }
 #meditation-text, #socials-footer {
@@ -448,7 +448,7 @@ footer > h2 {
 /* Header */
 h1 {
     width: 77%;
-    font-size: 2.9rem;
+    font-size: 2.8rem;
 }
 #menu, #socials {
     font-size: 1.3rem;
@@ -462,19 +462,16 @@ h1 {
     height: 800px;
 }
 /* Footer */
-footer>h2 {
+h4 {
     font-size: 1.5rem;
 }
-
 #meditation-text,
 #socials-footer {
     font-size: 1.2rem;
 }
-
 #button-text {
     font-size: 0.9rem;
 }
-
 #socials-text {
     font-size: 1rem;
 }
