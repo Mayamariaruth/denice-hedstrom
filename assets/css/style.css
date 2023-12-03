@@ -168,7 +168,7 @@ main {
     margin-bottom: 1rem;
 }
 /* Services tab */
-.center {
+.services-container {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -180,7 +180,6 @@ main {
     margin-bottom: 1rem;
     font-size: 1.3rem;
     color: #412a1b;
-    width: 14rem;
 }
 #services-button {
     background-color: rgba(164, 139, 114, 0.6);
@@ -191,6 +190,20 @@ main {
 #contact-me {
     font-size: 1rem;
 }
+#services-image {
+    display: none;
+}
+.images-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 3rem 0;
+}
+#image-services-mobile {
+    height: 400px;
+}
+#image-services {
+    display: none;
+}
 /* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
 th,
 td {
@@ -198,6 +211,7 @@ td {
     border-collapse: collapse;
     border-style: ridge;
     padding: 5px;
+    font-size: 1.1rem;
 }
 /* Footer */
 footer {
@@ -315,7 +329,31 @@ nav {
     margin-top: 3.5rem;
 }
 /* Services tab */
-
+.services-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 1rem 1rem 0 1rem;
+    justify-content: space-evenly;
+}
+#services-heading {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+#services-image {
+    display: flex;
+    height: 550px;
+    margin-top: 1.1rem;
+}
+#services-button {
+    margin-top: 1rem;
+}
+#image-services-mobile {
+    display: none;
+}
+#image-services {
+    display: flex;
+}
 /* Footer */
 h4 {
     font-size: 1.5rem;
