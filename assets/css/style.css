@@ -188,7 +188,7 @@ main {
     margin-top: 1rem;
 }
 #contact-me {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .services-image {
     display: none;
@@ -199,7 +199,8 @@ main {
     margin: 3rem 0 3rem 0;
 }
 #image-mobile {
-    height: 400px;
+    height: auto;
+    width: 100%;
 }
 #image-large {
     display: none;
@@ -231,9 +232,9 @@ footer > h2 {
 }
 #meditation-button {
     background-color: rgba(164, 139, 114, 0.6);
-    padding: 4px;
-    border-radius: 30px;
-    margin-bottom: 1rem;
+    padding: 0.6rem;
+    border-radius: 40px;
+    margin-bottom: 3rem;
 }
 #button-text {
     position: relative;
@@ -341,7 +342,6 @@ nav {
     margin-bottom: 2rem;
 }
 .services-image {
-    background: url(../images/services.jpg) no repeat;
     display: flex;
     height: 550px;
     margin-top: 1.1rem;
@@ -354,7 +354,8 @@ nav {
 }
 #image-large {
     display: flex;
-    height: 500px;
+    height: auto;
+    width: 100%;
 }
 /* Footer */
 h4 {
@@ -395,7 +396,7 @@ nav {
     width: fit-content;
 }    
 #menu, #socials {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 /* Hero image */
 .hero-image {
@@ -415,7 +416,32 @@ nav {
 #mission-image {
     height: 650px;
 }
+/* Services tab */
+#services-heading {
+    font-size: 1.9rem;
+}
+td {
+    font-size: 1.5rem;
+}
+#contact-me {
+    font-size: 1.5rem;
+}
+#image-large {
+    height: 650px;
+    width: auto;
+}
 /* Footer */
+footer > h2 {
+    font-size: 2rem;
+}
+#meditation-text, #socials-footer {
+    font-size: 1.6rem;
+}
+#button-text {
+    font-size: 1.3rem;
+}
+#socials-text {
+    font-size: 1.3rem;
 }
 /* Media query: Tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
@@ -425,10 +451,28 @@ nav {
         font-size: 2.9rem;
 }
     #menu, #socials {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
 }
 /* Hero image */
 .hero-image {
     top: 5.5rem;
+}
+/* Services tab */
+#image-large {
+    height: 800px;
+}
+/* Footer */
+footer>h2 {
+    font-size: 2.3rem;
+}
+#meditation-text,
+#socials-footer {
+    font-size: 1.7rem;
+}
+#button-text {
+    font-size: 1.4rem;
+}
+#socials-text {
+    font-size: 1.4rem;
 }
 }
