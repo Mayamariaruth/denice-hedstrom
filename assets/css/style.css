@@ -223,6 +223,9 @@ nav {
 .nav-toggle-button {
     display: none;
 }
+#menu, #socials {
+    font-size: 1.3rem;
+}
 #socials {
     padding: 0 0 0 1rem;
 }
@@ -244,17 +247,39 @@ nav {
     flex-direction: row-reverse;
     justify-content: center;
     margin: 1rem 1rem 0 1rem;
+    justify-content: space-evenly;
 }
 #mission-image {
-    height: 540px;
-    margin-left: 0.8rem;
+    height: 600px;
 }
 .mission-text {
-    margin-left: 2rem;
+    margin-left: 1.6rem;
+    font-size: 1.2rem;
+}
+#mission-heading, #about-heading {
+    font-size: 1.6rem;
+}
+.about-text {
+    font-size: 1.2rem;
 }
 #about-image {
     margin: 1rem 0 2rem;
     height: 540px;
+}
+#image-border {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.border-left {
+    border-left: solid 1px black;
+    height: 450px;
+    margin-top: 3.5rem;
+}
+.border-right {
+    border-right: solid 1px black;
+    height: 450px;
+    margin-top: 3.5rem;
 }
 /* Footer */
 .socials-container {
