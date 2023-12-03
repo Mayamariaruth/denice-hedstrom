@@ -167,6 +167,38 @@ main {
     height: 470px;
     margin-bottom: 1rem;
 }
+/* Services tab */
+.center {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+#services-heading {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #412a1b;
+    width: 14rem;
+}
+#services-button {
+    background-color: rgba(164, 139, 114, 0.6);
+    padding: 0.7rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+#contact-me {
+    font-size: 1rem;
+}
+/* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
+th,
+td {
+    border: 1.5px solid #412a1b;
+    border-collapse: collapse;
+    border-style: ridge;
+    padding: 5px;
+}
 /* Footer */
 footer {
     text-align: center;
@@ -184,8 +216,7 @@ footer > h2 {
     padding-bottom: 15px;
 }
 #meditation-button {
-    color: rgba(164, 139, 114, 1); /* BUTTON COLOR NOT SHOWING?*/
-    font-size: 13px;
+    background-color: rgba(164, 139, 114, 0.6);
     padding: 4px;
     border-radius: 30px;
     margin-bottom: 1rem;
@@ -193,6 +224,7 @@ footer > h2 {
 #button-text {
     position: relative;
     bottom: 2px;
+    font-size: 0.8rem;
 }
 footer i {
     color: black;
@@ -323,34 +355,38 @@ nav {
 #menu, #socials {
     font-size: 1.4rem;
 }
+/* Hero image */
+.hero-image {
+    background: url(../images/hero-image.jpg) no-repeat center center/cover;
+    top: 4.8rem;
+}
 /* Main content */
 .mission-container {
     gap: 2.8rem;
 }
-.mission-text {
+.mission-text, about-text {
     font-size: 1.3rem;
 }
-#mission-heading {
+#mission-heading, #about-heading {
     font-size: 1.8rem;
 }
 #mission-image {
     height: 650px;
 }
-.about-text {
-    font-size: 1.3rem;
-}
-#about-heading {
-    font-size: 1.8rem;
-}
-}
 /* Footer */
+}
 /* Media query: Tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* Header */
     h1 {
         width: 77%;
         font-size: 2.9rem;
 }
     #menu, #socials {
         font-size: 1.7rem;
+}
+/* Hero image */
+.hero-image {
+    top: 5.5rem;
 }
 }
