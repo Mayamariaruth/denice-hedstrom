@@ -445,13 +445,13 @@ footer > h2 {
 }
 /* Media query: Tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
-    /* Header */
-    h1 {
-        width: 77%;
-        font-size: 2.9rem;
+/* Header */
+h1 {
+    width: 77%;
+    font-size: 2.9rem;
 }
-    #menu, #socials {
-        font-size: 1.9rem;
+#menu, #socials {
+    font-size: 1.9rem;
 }
 /* Hero image */
 .hero-image {
