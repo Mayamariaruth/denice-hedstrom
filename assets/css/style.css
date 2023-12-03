@@ -196,7 +196,7 @@ main {
 .images-container {
     display: flex;
     justify-content: center;
-    margin: 3rem 0 3rem 0;
+    margin: 1rem 0 1.5rem 0;
 }
 #image-mobile {
     height: auto;
@@ -232,9 +232,9 @@ footer > h2 {
 }
 #meditation-button {
     background-color: rgba(164, 139, 114, 0.6);
-    padding: 0.6rem;
+    padding: 0.5rem;
     border-radius: 40px;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 #button-text {
     position: relative;
@@ -271,7 +271,7 @@ nav {
     display: none;
 }
 #menu, #socials {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 #socials {
     padding: 0 0 0 1rem;
@@ -338,7 +338,7 @@ nav {
     justify-content: space-evenly;
 }
 #services-heading {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
 }
 .services-image {
@@ -359,13 +359,13 @@ nav {
 }
 /* Footer */
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #meditation-text {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 #button-text {
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 .socials-container {
     display: flex;
@@ -373,7 +373,7 @@ h4 {
 }
 #socials-text {
     font-family: montserrat, serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #socials-footer {
     list-style-type: none;
@@ -396,7 +396,7 @@ nav {
     width: fit-content;
 }    
 #menu, #socials {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 /* Hero image */
 .hero-image {
@@ -418,13 +418,13 @@ nav {
 }
 /* Services tab */
 #services-heading {
-    font-size: 1.9rem;
+    font-size: 1.4rem;
 }
 td {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 #contact-me {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 #image-large {
     height: 650px;
@@ -432,16 +432,16 @@ td {
 }
 /* Footer */
 footer > h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 #meditation-text, #socials-footer {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
 }
 #button-text {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
 }
 #socials-text {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
 }
 /* Media query: Tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
@@ -451,7 +451,7 @@ h1 {
     font-size: 2.9rem;
 }
 #menu, #socials {
-    font-size: 1.9rem;
+    font-size: 1.3rem;
 }
 /* Hero image */
 .hero-image {
@@ -463,16 +463,19 @@ h1 {
 }
 /* Footer */
 footer>h2 {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
+
 #meditation-text,
 #socials-footer {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
+
 #button-text {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
 }
+
 #socials-text {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 }
