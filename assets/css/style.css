@@ -190,7 +190,7 @@ main {
 #contact-me {
     font-size: 1rem;
 }
-#services-image {
+.services-image {
     display: none;
 }
 .images-container {
@@ -198,10 +198,10 @@ main {
     justify-content: center;
     margin: 3rem 0 3rem 0;
 }
-#image-services-mobile {
+#image-mobile {
     height: 400px;
 }
-#image-services {
+#image-large {
     display: none;
 }
 /* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
@@ -340,7 +340,8 @@ nav {
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }
-#services-image {
+.services-image {
+    background: url(../images/services.jpg) no repeat;
     display: flex;
     height: 550px;
     margin-top: 1.1rem;
@@ -348,11 +349,12 @@ nav {
 #services-button {
     margin-top: 1rem;
 }
-#image-services-mobile {
+#image-mobile {
     display: none;
 }
-#image-services {
+#image-large {
     display: flex;
+    height: 500px;
 }
 /* Footer */
 h4 {
