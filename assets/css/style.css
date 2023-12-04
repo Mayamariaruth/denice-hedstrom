@@ -128,6 +128,12 @@ main {
     /* Make main element take up surplus space to push footer down (credit: CI Love running project) */
     flex: 1 0 auto;
     margin-top: 4.1rem;
+    display: flex;
+    justify-content: center;
+}
+.main-width {
+    /* To limit content size with larger screens */
+    max-width: 1300px;
 }
 
 .container-mission {
@@ -298,12 +304,13 @@ input:focus {
 .image-container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #contact-image {
     height: auto;
     width: 80%;
+    max-width: 500px;
 }
 
 /* Footer */
@@ -327,7 +334,7 @@ h3 {
 
 #meditation-button {
     background-color: rgba(164, 139, 114, 0.6);
-    padding: 0.7rem;
+    padding: 0.5rem;
     border-radius: 60px;
     border: solid 2px black;
     font-size: 0.8rem;
@@ -486,6 +493,10 @@ footer i {
     #services-button {
         margin-top: 1rem;
     }
+    /* Contact tab */
+    .contact-container {
+        flex-direction: row-reverse;
+    }
 
     /* Footer */
     h3 {
@@ -640,10 +651,16 @@ footer i {
         }
         /* Services tab */
         .services-image {
-            height: 600px;
+            height: 700px;
         }
         #services-heading {
-            font-size: 1.7rem;
+            font-size: 1.9rem;
+        }
+        td {
+            font-size: 1.4rem;
+        }
+        #contact-me {
+            font-size: 1.5rem;
         }
 
         /* Footer */
