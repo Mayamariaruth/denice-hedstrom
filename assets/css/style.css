@@ -399,7 +399,7 @@ nav {
 .services-image {
     display: flex;
     height: 550px;
-    margin-top: 1.1rem;
+    margin: 2rem 0 3rem 1rem;
 }
 #services-button {
     margin-top: 1rem;
