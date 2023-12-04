@@ -86,7 +86,7 @@ nav {
 .centered-text {
     padding-top: 1.8rem;
     color: #362317;
-    font-size: large;
+    font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 500;
     margin-left: 1rem;
@@ -195,10 +195,11 @@ main {
     background-color: rgba(164, 139, 114, 0.6);
     padding: 0.7rem;
     border-radius: 30px;
-    margin-top: 1rem;
-}
-#contact-me {
+    margin-bottom: 2rem;
+    border: solid 2px black;
     font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
 }
 .services-image {
     display: none;
@@ -264,7 +265,7 @@ footer {
     box-shadow: 0 2px 20px #2e2b2b54;
     padding-top: 1rem;
 }
-h4 {
+h3 {
     font-size: 1rem;
     padding-top: 10px;
 }
@@ -275,18 +276,16 @@ h4 {
 }
 #meditation-button {
     background-color: rgba(164, 139, 114, 0.6);
-    padding: 6px;
+    padding: 0.7rem;
     border-radius: 60px;
-    margin-bottom: 1rem;
-    border-style: ridge;
-}
-#button-text {
-    position: relative;
-    bottom: 2px;
-    font-size: 0.7rem;
+    border: solid 2px black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
 }
 #socials-text {
     font-size: 0.7rem;
+    margin-top: 2rem;
 }
 footer i {
     color: black;
@@ -405,22 +404,22 @@ nav {
     margin-top: 1rem;
 }
 /* Footer */
-h4 {
+h3 {
     font-size: 1.2rem;
 }
 #meditation-text {
     font-size: 0.9rem;
 }
-#button-text {
-    font-size: 0.7rem;
+#meditation-button {
+    font-size: 0.9rem;
 }
 .socials-container {
     display: flex;
     flex-direction: column;
 }
 #socials-text {
-    font-family: montserrat, serif;
     font-size: 0.8rem;
+    font-family: montserrat, serif;
 }
 #socials-footer {
     list-style-type: none;
