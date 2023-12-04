@@ -84,18 +84,17 @@ nav {
     background-color: rgb(233, 193, 137, 0.5);
 }
 .centered-text {
-    text-align: center;
     padding-top: 1.8rem;
     color: #362317;
     font-size: large;
     text-transform: uppercase;
     font-weight: 500;
+    margin-left: 1rem;
 }
 .color-box {
     position: relative;
     top: 20rem;
-    display: flex;
-    justify-content: center;
+    margin-left: 1rem;
 }
 #text-box {
     text-align: center;
@@ -169,6 +168,16 @@ main {
     margin-bottom: 1rem;
 }
 /* Services tab */
+/* Hero image (2nd) */
+.hero-image-services {
+    background: url(../images/services-hero-mobile.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    top: 4.1rem;
+    background-color: rgb(233, 193, 137, 0.5);
+}
+/* Content */
 .services-container {
     display: flex;
     text-align: center;
@@ -192,18 +201,6 @@ main {
     font-size: 1.1rem;
 }
 .services-image {
-    display: none;
-}
-.images-container {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0 1.5rem 0;
-}
-#image-mobile {
-    height: auto;
-    width: 100%;
-}
-#image-large {
     display: none;
 }
 /* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
@@ -383,6 +380,11 @@ nav {
     margin-top: 3.5rem;
 }
 /* Services tab */
+/* Hero image (2nd) */
+.hero-image-services {
+    height: 800px;
+}
+/* Services content */
 .services-container {
     display: flex;
     flex-direction: row-reverse;
@@ -401,14 +403,6 @@ nav {
 }
 #services-button {
     margin-top: 1rem;
-}
-#image-mobile {
-    display: none;
-}
-#image-large {
-    display: flex;
-    height: auto;
-    width: 100%;
 }
 /* Footer */
 h4 {
@@ -457,7 +451,6 @@ nav {
     top: 4.8rem;
 }
 .centered-text {
-    text-align: left;
     padding: 2.5rem 0 0 2rem;
     font-size: 2rem;
 }
@@ -485,6 +478,12 @@ nav {
     height: 650px;
 }
 /* Services tab */
+/* Hero image (2nd) */
+.hero-image-services {
+    background: url(../images/services-hero.jpg) no-repeat center center/cover;
+    top: 4.8rem;
+}
+/* Services content*/
 #services-heading {
     font-size: 1.4rem;
 }
@@ -493,10 +492,6 @@ td {
 }
 #contact-me {
     font-size: 1.1rem;
-}
-#image-large {
-    height: 650px;
-    width: auto;
 }
 /* Footer */
 h4 {
@@ -524,10 +519,6 @@ h1 {
 /* Hero image */
 .hero-image {
     top: 5.3rem;
-}
-/* Services tab */
-#image-large {
-    height: 800px;
 }
 /* Footer */
 h4 {
