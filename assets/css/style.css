@@ -32,7 +32,7 @@ h1 {
 }
 #menu {
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 header a {
     text-decoration: none;
@@ -43,7 +43,7 @@ header a {
 }
 #socials {
     list-style-type: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-right: 0.8rem;
 }
 nav > ul {
@@ -215,11 +215,21 @@ td {
     font-size: 1.1rem;
 }
 /* Contact tab */
+.contact-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#text-container {
+    display: flex;
+    flex-direction: column;
+}
 #contact-heading {
     margin: 1rem;
     color: #412a1b;
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
 }
 form {
     margin: 1rem;
@@ -236,7 +246,13 @@ input:focus {
     border: 3px solid rgba(164, 139, 114, 0.8);
 }
 #submit-button {
-    border-radius: 40px
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+#contact-image {
+    height: 400px;
+    margin: 1rem;
 }
 /* Footer */
 footer {
@@ -256,8 +272,8 @@ h4 {
 }
 #meditation-button {
     background-color: rgba(164, 139, 114, 0.6);
-    padding: 0.5rem;
-    border-radius: 40px;
+    padding: 6px;
+    border-radius: 60px;
     margin-bottom: 1rem;
     border-style: ridge;
 }
