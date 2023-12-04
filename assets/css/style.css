@@ -92,18 +92,19 @@ nav {
     font-weight: 500;
 }
 .color-box {
-    background-color: rgba(164, 139, 114, 0.6);
-    position: absolute;
-    width: fit-content;
-    bottom: 29%;
-    left: 5%;
-    padding: 0.5rem;
+    position: relative;
+    top: 20rem;
+    display: flex;
+    justify-content: center;
 }
 #text-box {
     text-align: center;
     font-family: montserrat, serif;
     color: white;
     font-size: 1.2rem;
+    padding: 1rem;
+    background-color: rgba(164, 139, 114, 0.6);
+    width: 50%;
 }
 /* Main content */
 main {
@@ -232,7 +233,7 @@ td {
     text-align: center;
 }
 form {
-    margin: 1rem;
+    margin: 0 0 2rem 1.2rem;
 }
 input, textarea {
     border-radius: 5px;
@@ -253,11 +254,11 @@ input:focus {
 .image-container {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 #contact-image {
     height: auto;
     width: 80%;
-    margin: 2rem 0 1rem 2.5rem;
 }
 /* Footer */
 footer {
@@ -333,10 +334,13 @@ nav {
     font-size: 1.6rem;
     padding-top: 2.4rem;
 }
-.color-text-box {
+.color-box {
+    top: 28rem;
+}
+#text-box {
     width: 70%;
-    font-size: 25px;
-    left: 15%;
+    font-size: 1.6rem;
+    padding: 1.5rem;
 }
 /* Main Content */
 .container-mission{
@@ -452,6 +456,21 @@ nav {
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
     top: 4.8rem;
 }
+.centered-text {
+    text-align: left;
+    padding: 2.5rem 0 0 2rem;
+    font-size: 2rem;
+}
+.color-box {
+    display: block;
+    margin-left: 2rem;
+    top: 26rem;
+}
+#text-box {
+    font-size: 1.9rem;
+    padding: 2rem;
+    width: 650px;
+}
 /* Main content */
 .mission-container {
     gap: 2.8rem;
@@ -504,7 +523,7 @@ h1 {
 }
 /* Hero image */
 .hero-image {
-    top: 5.5rem;
+    top: 5.3rem;
 }
 /* Services tab */
 #image-large {
