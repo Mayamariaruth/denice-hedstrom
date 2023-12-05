@@ -138,7 +138,7 @@ main {
     max-width: 1300px;
 }
 
-/* My Mission section */
+/* My mission section */
 .container-mission {
     display: flex;
     flex-direction: column-reverse;
@@ -146,10 +146,14 @@ main {
     margin-left: 4rem;
 }
 
-#mission-image {
+#mission-image-mobile {
     height: 470px;
     position: relative;
     right: 1.9rem;
+}
+
+#mission-image {
+    display: none;
 }
 
 .mission-text {
@@ -495,7 +499,12 @@ footer i {
     }
 
     #mission-image {
+        display: flex;
         height: 600px;
+    }
+
+    #mission-image-mobile {
+        display: none;
     }
 
     .mission-text {
@@ -515,13 +524,17 @@ footer i {
 
     #about-image {
         margin: 1rem 0 2rem;
-        height: 540px;
+        height: 600px;
     }
 
     #image-border {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .border-right, .border-left {
+        margin-top: 6rem;
     }
 
     /* Credit: Daniel Vassallo comment (https://stackoverflow.com/questions/3148415/how-to-make-a-vertical-line-in-html#:~:text=You%20can%20draw%20a%20vertical,width%20with%20any%20html%20element.&text=The%20width%20property%20determines%20the,the%20color%20of%20the%20line.) */
@@ -701,8 +714,12 @@ footer i {
         font-size: 1.8rem;
     }
 
-    #mission-image {
+    #mission-image, #about-image {
         height: 650px;
+    }
+
+    .border-right, .border-left {
+        margin-top: 7rem;
     }
 
     /* Services page */
