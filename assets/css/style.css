@@ -61,6 +61,10 @@ nav>ul {
     align-items: center;
 }
 
+.home-page-logo {
+    display: none;
+}
+
 /* Navbar dropdown toggle styling (credit: CI Love running project) */
 nav {
     position: absolute;
@@ -88,6 +92,7 @@ nav {
 }
 
 .toggle {
+    visibility: hidden;
     display: none;
 }
 
