@@ -131,6 +131,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 .main-width {
     /* To limit content size with larger screens */
     max-width: 1300px;
@@ -211,6 +212,7 @@ main {
     top: 4.1rem;
     background-color: rgb(233, 193, 137, 0.5);
 }
+
 #services-tab {
     margin-top: 3rem;
     font-size: 1.4rem;
@@ -220,7 +222,7 @@ main {
 .services-container {
     display: flex;
     text-align: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     margin-top: 2rem;
 }
@@ -244,7 +246,10 @@ main {
 }
 
 .services-image {
-    display: none;
+    height: auto;
+    width: 80%;
+    max-width: 700px;
+    margin-bottom: 2rem
 }
 
 /* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
@@ -277,6 +282,10 @@ td {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 1.7rem;
+    background-color: rgba(164, 139, 114, 0.5);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 form {
@@ -290,15 +299,20 @@ textarea {
     outline: none;
     border-color: rgba(164, 139, 114, 0.8);
     border-style: ridge;
+    font-size: 1rem;
+    padding: 5px;
 }
+
 label {
     font-size: 1.1rem;
 }
+
 input {
     width: 70%;
     margin-bottom: 0.7rem;
     height: 35px;
 }
+
 textarea {
     width: 90%;
     height: 80px;
@@ -484,6 +498,7 @@ footer i {
     .hero-image-services {
         height: 800px;
     }
+
     #services-tab {
         font-size: 1.8rem
     }
@@ -495,6 +510,7 @@ footer i {
         justify-content: center;
         margin: 1rem 1rem 0 1rem;
         justify-content: space-evenly;
+        width: 100%;
     }
 
     #services-heading {
@@ -503,31 +519,36 @@ footer i {
     }
 
     .services-image {
-        display: flex;
-        height: 560px;
         margin: 2rem 0 3rem 1rem;
+        max-width: 700px;
     }
 
     #services-button {
         margin-top: 1rem;
     }
+
     /* Contact tab */
     .contact-container {
         flex-direction: row-reverse;
     }
+
     #contact-image {
         max-width: 1000px;
         margin-top: 2.5rem;
     }
+
     #contact-heading {
         font-size: 2rem;
     }
+
     #text-container {
         margin-left: 2rem;
     }
+
     label {
         font-size: 1.3rem;
     }
+
     #submit-button {
         font-size: 1.2rem;
     }
@@ -646,25 +667,35 @@ footer i {
     #contact-me {
         font-size: 1.1rem;
     }
+
     /* Contact tab */
     #text-container {
         margin-top: 2rem;
     }
+
     #contact-heading {
         font-size: 2.5rem;
     }
+
     label {
         font-size: 1.5rem;
     }
+    input, textarea {
+        font-size: 1.2rem;
+    }
+
     input {
         height: 40px;
     }
+
     textarea {
         height: 100px;
     }
+
     #submit-button {
         font-size: 1.3rem;
     }
+
     /* Footer */
     h3 {
         font-size: 1.4rem;
@@ -701,16 +732,16 @@ footer i {
         .hero-image {
             top: 5.3rem;
         }
+
         /* Services tab */
-        .services-image {
-            height: 700px;
-        }
         #services-heading {
             font-size: 1.9rem;
         }
+
         td {
             font-size: 1.4rem;
         }
+
         #contact-me {
             font-size: 1.5rem;
         }
