@@ -138,6 +138,7 @@ main {
     max-width: 1300px;
 }
 
+/* My Mission section */
 .container-mission {
     display: flex;
     flex-direction: column-reverse;
@@ -171,6 +172,7 @@ main {
     padding: 1.2rem 0;
 }
 
+/* About me section */
 .container-about {
     display: flex;
     flex-direction: column;
@@ -203,7 +205,7 @@ main {
     margin-bottom: 1rem;
 }
 
-/* Services tab */
+/* Services page */
 /* Hero image (2nd) */
 .hero-image-services {
     background: url(../images/services-hero-mobile.jpg) no-repeat center center/cover;
@@ -219,7 +221,7 @@ main {
     font-size: 1.4rem;
 }
 
-/* Content */
+/* Services content */
 .services-container {
     display: flex;
     text-align: center;
@@ -253,11 +255,11 @@ main {
     margin-bottom: 2rem
 }
 
-/* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
 th {
     font-size: 1.3rem;
 }
 
+/* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
 th,
 td {
     border: 1.5px solid #412a1b;
@@ -270,7 +272,7 @@ td {
     font-size: 1.1rem;
 }
 
-/* Contact tab */
+/* Contact page */
 .contact-container {
     display: flex;
     flex-direction: column-reverse;
@@ -310,6 +312,7 @@ textarea {
     border-style: ridge;
     font-size: 1rem;
     padding: 5px;
+    width: 90%;
 }
 
 label {
@@ -317,13 +320,11 @@ label {
 }
 
 input {
-    width: 70%;
     margin-bottom: 0.7rem;
     height: 35px;
 }
 
 textarea {
-    width: 90%;
     height: 80px;
     margin-bottom: 1rem;
 }
@@ -354,7 +355,7 @@ input:focus {
     max-width: 500px;
 }
 
-/* Contact - Thank you */
+/* Contact - Thank you page */
 .thank-container {
     text-align: center;
     display: flex;
@@ -441,6 +442,7 @@ footer i {
         margin-bottom: 0.5rem;
     }
 
+    /* Navbar dropdown toggle styling */
     nav {
         display: flex;
         justify-content: flex-end;
@@ -484,6 +486,7 @@ footer i {
     }
 
     /* Main Content */
+    /* My mission section */
     .container-mission {
         flex-direction: row-reverse;
         justify-content: center;
@@ -505,6 +508,7 @@ footer i {
         font-size: 1.6rem;
     }
 
+    /* About me section */
     .about-text {
         font-size: 1.2rem;
     }
@@ -533,7 +537,7 @@ footer i {
         margin-top: 3.5rem;
     }
 
-    /* Services tab */
+    /* Services page */
     /* Hero image (2nd) */
     .hero-image-services {
         height: 800px;
@@ -570,7 +574,7 @@ footer i {
         margin-top: 1rem;
     }
 
-    /* Contact tab */
+    /* Contact page */
     .contact-container {
         flex-direction: row-reverse;
     }
@@ -596,7 +600,7 @@ footer i {
         font-size: 1.2rem;
     }
 
-    /* Contact - Thank you */
+    /* Contact - Thank you page */
     #thank-heading {
         margin-top: 2.5rem;
     }
@@ -647,7 +651,8 @@ footer i {
     h1 {
         font-size: 2.5rem;
     }
-
+    
+    /* Navbar dropdown toggle styling */
     nav {
         width: fit-content;
     }
@@ -681,6 +686,7 @@ footer i {
     }
 
     /* Main content */
+    /* My Mission and About me section */
     .mission-container {
         gap: 2.8rem;
     }
@@ -699,7 +705,7 @@ footer i {
         height: 650px;
     }
 
-    /* Services tab */
+    /* Services page */
     /* Hero image (2nd) */
     .hero-image-services {
         background: url(../images/services-hero.jpg) no-repeat center center/cover;
@@ -719,7 +725,7 @@ footer i {
         font-size: 1.1rem;
     }
 
-    /* Contact tab */
+    /* Contact page */
     #text-container {
         margin-top: 2rem;
     }
@@ -775,6 +781,7 @@ footer i {
             font-size: 2.8rem;
         }
 
+        /* Navbar dropdown toggle styling */
         #menu,
         #socials {
             font-size: 1.3rem;
@@ -785,7 +792,7 @@ footer i {
             top: 5.3rem;
         }
 
-        /* Services tab */
+        /* Services page */
         #services-heading {
             font-size: 1.9rem;
         }
@@ -798,7 +805,7 @@ footer i {
             font-size: 1.5rem;
         }
 
-        /* Contact - Thank you */
+        /* Contact - Thank you page */
         #thank-heading {
             font-size: 1.8rem;
         }
