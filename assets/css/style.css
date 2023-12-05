@@ -807,6 +807,19 @@ footer i {
             font-size: 1.5rem;
         }
 
+        /* Contact - Thank you */
+        #thank-heading {
+            font-size: 1.8rem;
+        }
+
+        #thank-text {
+            font-size: 1.5rem;
+        }
+
+        #quote {
+            font-size: 1.6rem;
+        }
+
         /* Footer */
         h3 {
             font-size: 1.5rem;
