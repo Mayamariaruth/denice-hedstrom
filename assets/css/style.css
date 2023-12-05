@@ -87,6 +87,10 @@ nav {
     margin-bottom: 8px;
 }
 
+.toggle {
+    display: none;
+}
+
 /* Hero image styles */
 .hero-image {
     background: url(../images/hero-image-mobile.jpg) no-repeat center center/cover;
