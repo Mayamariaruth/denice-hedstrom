@@ -92,7 +92,6 @@ nav {
 }
 
 .toggle {
-    visibility: hidden;
     display: none;
 }
 
@@ -266,7 +265,8 @@ th {
     font-size: 1.3rem;
 }
 
-th, td {
+th,
+td {
     border: 1.5px solid #412a1b;
     border-collapse: collapse;
     border-style: ridge;
