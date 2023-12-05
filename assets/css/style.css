@@ -262,12 +262,18 @@ main {
 }
 
 /* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
-th,
-td {
+th {
+    font-size: 1.3rem;
+}
+
+th, td {
     border: 1.5px solid #412a1b;
     border-collapse: collapse;
     border-style: ridge;
     padding: 5px;
+}
+
+td {
     font-size: 1.1rem;
 }
 
