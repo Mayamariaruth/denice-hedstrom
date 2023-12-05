@@ -267,28 +267,42 @@ td {
 #text-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 90%;
 }
 
 #contact-heading {
-    margin: 1rem;
+    margin: 1rem 0 1rem 0;
     color: #412a1b;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
-    text-align: center;
+    font-size: 1.7rem;
 }
 
 form {
-    margin: 0 0 2rem 1.2rem;
+    margin-bottom: 2rem;
 }
 
 input,
 textarea {
     border-radius: 5px;
-    padding: 2px;
     border-width: 2px;
     outline: none;
     border-color: rgba(164, 139, 114, 0.8);
     border-style: ridge;
+}
+label {
+    font-size: 1.1rem;
+}
+input {
+    width: 70%;
+    margin-bottom: 0.7rem;
+    height: 35px;
+}
+textarea {
+    width: 90%;
+    height: 80px;
+    margin-bottom: 1rem;
 }
 
 input:focus {
@@ -298,7 +312,11 @@ input:focus {
 #submit-button {
     border-radius: 40px;
     padding: 5px;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    width: 100px;
+    font-weight: 500;
+    background-color: rgba(164, 139, 114, 0.6);
+    border: solid 1.5px black;
 }
 
 .image-container {
@@ -497,6 +515,22 @@ footer i {
     .contact-container {
         flex-direction: row-reverse;
     }
+    #contact-image {
+        max-width: 1000px;
+        margin-top: 2.5rem;
+    }
+    #contact-heading {
+        font-size: 2rem;
+    }
+    #text-container {
+        margin-left: 2rem;
+    }
+    label {
+        font-size: 1.3rem;
+    }
+    #submit-button {
+        font-size: 1.2rem;
+    }
 
     /* Footer */
     h3 {
@@ -612,7 +646,25 @@ footer i {
     #contact-me {
         font-size: 1.1rem;
     }
-
+    /* Contact tab */
+    #text-container {
+        margin-top: 2rem;
+    }
+    #contact-heading {
+        font-size: 2.5rem;
+    }
+    label {
+        font-size: 1.5rem;
+    }
+    input {
+        height: 40px;
+    }
+    textarea {
+        height: 100px;
+    }
+    #submit-button {
+        font-size: 1.3rem;
+    }
     /* Footer */
     h3 {
         font-size: 1.4rem;
