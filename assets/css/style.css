@@ -345,6 +345,36 @@ input:focus {
     max-width: 500px;
 }
 
+/* Contact - Thank you */
+.thank-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#thank-heading {
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: rgba(164, 139, 114, 0.5);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#thank-text {
+    font-weight: 500;
+    margin: 1rem;
+    width: 70%
+}
+
+#quote {
+    font-style: italic;
+    margin: 1.3rem 0 2rem 0;
+    width: 90%;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -429,8 +459,8 @@ footer i {
     }
 
     .centered-text {
-        font-size: 1.6rem;
-        padding-top: 2.4rem;
+        font-size: 1.8rem;
+        padding-top: 1rem;
     }
 
     .color-box {
@@ -553,6 +583,15 @@ footer i {
         font-size: 1.2rem;
     }
 
+    /* Contact - Thank you */
+    #thank-heading {
+        margin-top: 2.5rem;
+    }
+
+    #quote {
+        margin-bottom: 1.5rem;
+    }
+
     /* Footer */
     h3 {
         font-size: 1.2rem;
@@ -613,7 +652,7 @@ footer i {
     }
 
     .centered-text {
-        padding: 2.5rem 0 0 2rem;
+        padding: 1rem 0 0 2rem;
         font-size: 2rem;
     }
 
@@ -680,7 +719,9 @@ footer i {
     label {
         font-size: 1.5rem;
     }
-    input, textarea {
+
+    input,
+    textarea {
         font-size: 1.2rem;
     }
 
