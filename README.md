@@ -29,6 +29,8 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
     * [***Contact feedback***](#contact-feedback)
     * [***Future features***](#future-features)
 1. [**Testing**](#testing)
+
+
     * [***Validator testing***](#validator-testing)
 1. [**Deployment**](#deployment)
 1. [**Bugs**](#bugs)
@@ -43,18 +45,23 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
 ## Design
 
 ### Target audience 
-
 * Women who are needing a change in their lives.
 * Women who are drawn to spirituality and alternative medicine/practices.
 * Women who are looking for a mentor and community.
 * Women who have tried going the 'normal' route (doctors and therapists) but are now searching for other ways of healing.
 
 ### User stories
-
+* I want to see and understand what the subject of the site is.
+* I want to easily navigate the site.
+* I want to learn more about the subject as I go through the page to make a judgement if this is for me.
+* I want to see what products/services are available to me.
+* I want to be able to connect for further information.
 
 ### Site aims 
-
-
+* To showcase the client Denice Hedstrom as a professional working with healing.
+* To be simple and straightforward enough to keep users on the page wanting to learn more.
+* To manifest the clients meant to work with Denice by creating a site that reflects Denice's energy.
+* To provide a way for users to reach out to Denice.
 
 ### Client design wishes
 
@@ -164,13 +171,8 @@ __Thank you page__
 
 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
@@ -197,9 +199,27 @@ Live link to the site - https://mayamariaruth.github.io/denice-hedstrom/
 
 ### Fixed Bugs
 
+Bug: @import not working for Google fonts (“Import statements do not load in parallel”)
+Fix: added the fonts as a link in HTML head section
+
+Bug: List bullet points did not remove 
+Fix: had to add the list-style-type in a UL CSS style
+
+Bug: navbar sits on top of h1 when creating toggle
+Fix: remove display flex, flex-direction:column from header to allow navbar to sit under h1
+
+Bug: nav bar toggle and menu bar doesn’t follow the right side with the change of screen size
+Fix: adjust h1 to take up the remaining space in the header with % (there was space over, which is why they didn’t move with the change of screen)
+
+Bug: Button color not showing
+Fix: Had to write background-color, not Color in CSS
+
+
+
+
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No unfixed bugs.
 
 ## Credits 
 
