@@ -57,7 +57,7 @@ __My mission section__
 
 __About me section__
 
-- 
+- This section is also very self-explanatory, it shares a brief  about Denice and 
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
