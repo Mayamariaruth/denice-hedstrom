@@ -64,6 +64,10 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
 
 ### Color palette
 
+
+
+![Color](docs/screenshots/color-contrast.jpg)
+
 ### Typography
 
 
@@ -134,7 +138,20 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
 
 ### Future features
 
-- Another feature idea
+__My mission section__
+- For larger screens, I would use Flexbox and move the first paragraph to the left and the one under it to the right and so on. To take up some more space and give it a new look. 
+
+__About me section__
+- For larger screens, I would use Flexbox and move a part of the text next to the image to fill up some more space and create a more even layout.
+
+__Services page__
+- I would add more content to explain shortly what the different offerings entail and give them all a section each on the page. For a bigger project, I would create a separate page for each offering and have buttons linking to Denice's calendly instead for direct booking.
+
+__Contact page__
+- I would change the background to an image to make the page look a bit more playful, it looks a bit simple at the moment.
+
+__Thank you page__
+- I would add a link to one of Denice's youtube videos for more free content and exposure to Denice's work.
 
 ## Testing 
 

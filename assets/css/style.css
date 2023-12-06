@@ -100,7 +100,7 @@ nav {
 
 .centered-text {
     margin-top: 1.9rem;
-    color: #362317;
+    color: rgba(54, 35, 23, 0.8);
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -121,6 +121,7 @@ nav {
     padding: 1rem;
     background-color: rgba(164, 139, 114, 0.6);
     width: 50%;
+    border-radius: 30px;
 }
 
 /* Main content */
@@ -545,7 +546,8 @@ footer i {
         justify-content: space-evenly;
     }
 
-    .border-right, .border-left {
+    .border-right,
+    .border-left {
         margin-top: 6rem;
     }
 
@@ -676,7 +678,7 @@ footer i {
     h1 {
         font-size: 2.5rem;
     }
-    
+
     /* Navbar dropdown toggle styling */
     nav {
         width: fit-content;
@@ -726,11 +728,13 @@ footer i {
         font-size: 1.8rem;
     }
 
-    #mission-image, #about-image {
+    #mission-image,
+    #about-image {
         height: 650px;
     }
 
-    .border-right, .border-left {
+    .border-right,
+    .border-left {
         margin-top: 7rem;
     }
 
