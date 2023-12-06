@@ -70,7 +70,7 @@ I utilized the Contrast grid by Eightshapes to test my color combos so the color
 ![Color](docs/screenshots/color-contrast.jpg)
 
 ### Typography
-
+I used three different fonts across the page 
 
 ## Features 
 

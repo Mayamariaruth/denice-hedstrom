@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* General styles */
 body {
     min-height: 100vh;
@@ -13,7 +12,6 @@ body {
     color: #373d3f;
     font-family: 'Bodoni Moda', serif;
 }
-
 /* Header */
 header {
     background-color: white;
@@ -26,39 +24,32 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
 h1 {
     font-size: 1.7rem;
     font-weight: 500;
 }
-
 #menu {
     list-style-type: none;
     font-size: 1rem;
 }
-
 header a {
     text-decoration: none;
     color: inherit;
 }
-
 .current {
     border-bottom: solid 1px #373d3f;
 }
-
 #socials {
     list-style-type: none;
     font-size: 1rem;
     padding-right: 0.8rem;
 }
-
 nav>ul {
     display: flex;
     justify-content: center;
     gap: 17px;
     align-items: center;
 }
-
 /* Navbar dropdown toggle styling (credit: CI Love running project) */
 nav {
     position: absolute;
@@ -70,24 +61,19 @@ nav {
     display: none;
     top: 100%;
 }
-
 #nav-toggle:checked~nav {
     display: block;
 }
-
 #nav-toggle {
     display: none;
 }
-
 .nav-toggle-button {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
-
 .toggle {
     display: none;
 }
-
 /* Hero image styles */
 .hero-image {
     background: url(../images/hero-image-mobile.jpg) no-repeat center center/cover;
@@ -97,7 +83,6 @@ nav {
     top: 4.1rem;
     background-color: rgb(233, 193, 137, 0.5);
 }
-
 .centered-text {
     margin-top: 1.9rem;
     color: rgba(54, 35, 23, 0.8);
@@ -106,13 +91,11 @@ nav {
     font-weight: 500;
     margin-left: 1rem;
 }
-
 .color-box {
     position: relative;
     top: 20rem;
     margin-left: 1rem;
 }
-
 #text-box {
     text-align: center;
     font-family: montserrat, serif;
@@ -123,7 +106,6 @@ nav {
     width: 50%;
     border-radius: 30px;
 }
-
 /* Main content */
 main {
     background-color: rgb(233, 193, 137, 0.5);
@@ -133,12 +115,10 @@ main {
     display: flex;
     justify-content: center;
 }
-
 .main-width {
     /* To limit content size with larger screens */
     max-width: 1300px;
 }
-
 /* My mission section */
 .container-mission {
     display: flex;
@@ -146,25 +126,21 @@ main {
     align-items: center;
     margin-left: 4rem;
 }
-
 #mission-image-mobile {
     height: 400px;
     position: relative;
     right: 1.9rem;
     width: 260px;
 }
-
 #mission-image {
     display: none;
 }
-
 .mission-text {
     margin-top: 2.5rem;
     text-align: center;
     margin-right: 75px;
     padding-bottom: 2rem;
 }
-
 #mission-heading {
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -172,19 +148,16 @@ main {
     border: solid 1px #412a1b;
     color: #412a1b;
 }
-
 .border-bottom {
     border-bottom: solid 1px #412a1b;
     padding: 1.2rem 0;
 }
-
 /* About me section */
 .container-about {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .about-text {
     text-align: center;
     padding: 1.5rem;
@@ -192,7 +165,6 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
 #about-heading {
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -201,21 +173,17 @@ main {
     color: #412a1b;
     width: 14rem;
 }
-
 .margin-top {
     margin-top: 1.6rem;
 }
-
 #about-image-mobile {
     height: 400px;
     margin-bottom: 1rem;
     width: 270px;
 }
-
 #about-image {
     display: none;
 }
-
 /* Services page */
 /* Hero image (2nd) */
 .hero-image-services {
@@ -226,12 +194,10 @@ main {
     top: 4.1rem;
     background-color: rgb(233, 193, 137, 0.5);
 }
-
 #services-tab {
     margin-top: 3rem;
     font-size: 1.4rem;
 }
-
 /* Services content */
 .services-container {
     display: flex;
@@ -240,14 +206,12 @@ main {
     align-items: center;
     margin-top: 2rem;
 }
-
 #services-heading {
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 1.3rem;
     color: #412a1b;
 }
-
 #services-button {
     background-color: rgba(164, 139, 114, 0.6);
     padding: 0.7rem;
@@ -258,18 +222,15 @@ main {
     text-decoration: none;
     color: black;
 }
-
 .services-image {
     height: auto;
     width: 80%;
     max-width: 700px;
     margin-bottom: 2rem
 }
-
 th {
     font-size: 1.3rem;
 }
-
 /* Credit: W3Schools (https: //www.w3schools.com/html/html_table_borders.asp) */
 th,
 td {
@@ -278,18 +239,15 @@ td {
     border-style: ridge;
     padding: 5px;
 }
-
 td {
     font-size: 1.1rem;
 }
-
 /* Contact page */
 .contact-container {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
-
 #text-container {
     display: flex;
     flex-direction: column;
@@ -297,7 +255,6 @@ td {
     width: 90%;
     margin-left: 2rem;
 }
-
 #contact-heading {
     margin: 1rem 0 1rem 0;
     color: #412a1b;
@@ -309,11 +266,9 @@ td {
     width: fit-content;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-
 form {
     margin-bottom: 2rem;
 }
-
 input,
 textarea {
     border-radius: 5px;
@@ -325,25 +280,20 @@ textarea {
     padding: 5px;
     width: 90%;
 }
-
 label {
     font-size: 1.1rem;
 }
-
 input {
     margin-bottom: 0.7rem;
     height: 35px;
 }
-
 textarea {
     height: 80px;
     margin-bottom: 1rem;
 }
-
 input:focus {
     border: 3px solid rgba(164, 139, 114, 0.8);
 }
-
 #submit-button {
     border-radius: 40px;
     padding: 5px;
@@ -353,19 +303,16 @@ input:focus {
     background-color: rgba(164, 139, 114, 0.6);
     border: solid 1.5px black;
 }
-
 .image-container {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
 }
-
 #contact-image {
     height: auto;
     width: 80%;
     max-width: 500px;
 }
-
 /* Contact - Thank you page */
 .thank-container {
     text-align: center;
@@ -373,7 +320,6 @@ input:focus {
     flex-direction: column;
     align-items: center;
 }
-
 #thank-heading {
     margin: 1.5rem;
     font-size: 1.3rem;
@@ -384,19 +330,16 @@ input:focus {
     padding: 0.5rem 1rem 0.5rem 1rem;
     border: solid 1px black;
 }
-
 #thank-text {
     font-weight: 500;
     margin: 1rem;
     width: 70%
 }
-
 #quote {
     font-style: italic;
     margin: 1.3rem 0 2rem 0;
     width: 90%;
 }
-
 /* Footer */
 footer {
     text-align: center;
@@ -404,18 +347,15 @@ footer {
     box-shadow: 0 2px 20px #2e2b2b54;
     padding-top: 1rem;
 }
-
 h3 {
     font-size: 1rem;
     padding-top: 10px;
 }
-
 #meditation-text {
     font-size: 0.8rem;
     padding-top: 10px;
     padding-bottom: 15px;
 }
-
 #free-meditation-button {
     background-color: rgba(164, 139, 114, 0.6);
     padding: 0.5rem;
@@ -425,16 +365,13 @@ h3 {
     text-decoration: none;
     color: black;
 }
-
 #socials-text {
     font-size: 0.7rem;
     margin-top: 2rem;
 }
-
 footer i {
     color: black;
 }
-
 #socials-footer {
     list-style-type: none;
     display: flex;
@@ -443,16 +380,13 @@ footer i {
     justify-content: center;
     font-size: 1rem;
 }
-
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     h1 {
         font-size: 2.2rem;
         margin-bottom: 0.5rem;
     }
-
     /* Navbar dropdown toggle styling */
     nav {
         display: flex;
@@ -462,41 +396,33 @@ footer i {
         box-shadow: none;
         padding: 0;
     }
-
     .nav-toggle-button {
         display: none;
     }
-
     #menu,
     #socials {
         font-size: 1.2rem;
     }
-
     #socials {
         padding: 0 0 0 1rem;
     }
-
     /* Hero image */
     .hero-image {
         background: url(../images/hero-image.jpg) no-repeat center center/cover;
         height: 800px;
     }
-
     .centered-text {
         font-size: 1.8rem;
         padding-top: 1rem;
     }
-
     .color-box {
         top: 28rem;
     }
-
     #text-box {
         width: 70%;
         font-size: 1.6rem;
         padding: 1.5rem;
     }
-
     /* Main Content */
     /* My mission section */
     .container-mission {
@@ -505,75 +431,61 @@ footer i {
         margin: 1rem 1rem 0 1rem;
         justify-content: space-evenly;
     }
-
     #mission-image {
         display: flex;
         height: 600px;
     }
-
     #mission-image-mobile {
         display: none;
     }
-
     .mission-text {
         margin-left: 1.6rem;
         font-size: 1.2rem;
     }
-
     #mission-heading,
     #about-heading {
         font-size: 1.6rem;
     }
-
     /* About me section */
     .about-text {
         font-size: 1.2rem;
     }
-
     #about-image {
         display: flex;
         margin: 1rem 0 2rem;
         height: 600px;
     }
-
     #about-image-mobile {
         display: none;
     }
-
     #image-border {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
     }
-
     .border-right,
     .border-left {
         margin-top: 6rem;
     }
-
     /* Credit: Daniel Vassallo comment (https://stackoverflow.com/questions/3148415/how-to-make-a-vertical-line-in-html#:~:text=You%20can%20draw%20a%20vertical,width%20with%20any%20html%20element.&text=The%20width%20property%20determines%20the,the%20color%20of%20the%20line.) */
     .border-left {
         border-left: solid 1px black;
         height: 450px;
         margin-top: 3.5rem;
     }
-
     .border-right {
         border-right: solid 1px black;
         height: 450px;
         margin-top: 3.5rem;
     }
-
     /* Services page */
     /* Hero image (2nd) */
     .hero-image-services {
         height: 800px;
     }
-
     #services-tab {
         font-size: 1.8rem
     }
-
     /* Services content */
     .services-container {
         display: flex;
@@ -582,289 +494,228 @@ footer i {
         justify-content: space-evenly;
         width: 100%;
     }
-
     #services-heading {
         font-size: 1.4rem;
         margin-bottom: 2rem;
     }
-
     .services-image {
         margin: 1rem 0 3rem 0;
         max-width: 700px;
     }
-
     .margin-left {
         margin-left: 2rem;
     }
-
     #services-button {
         margin-top: 1rem;
     }
-
     /* Contact page */
     .contact-container {
         flex-direction: row-reverse;
     }
-
     #contact-image {
         max-width: 1000px;
         margin-top: 2.5rem;
     }
-
     #contact-heading {
         font-size: 2rem;
     }
-
     #text-container {
         margin-left: 2rem;
     }
-
     label {
         font-size: 1.3rem;
     }
-
     #submit-button {
         font-size: 1.2rem;
     }
-
     /* Contact - Thank you page */
     #thank-heading {
         margin-top: 2.5rem;
     }
-
     #quote {
         margin-bottom: 1.5rem;
     }
-
     /* Footer */
     h3 {
         font-size: 1.2rem;
     }
-
     #meditation-text {
         font-size: 0.9rem;
     }
-
     #meditation-button {
         font-size: 0.9rem;
     }
-
     .socials-container {
         display: flex;
         flex-direction: column;
     }
-
     #socials-text {
         font-size: 0.8rem;
         font-family: montserrat, serif;
     }
-
     #socials-footer {
         list-style-type: none;
         display: flex;
         gap: 1rem;
         font-size: 1.3rem;
     }
-
     footer i {
         color: black;
     }
 }
-
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-
     /* Header */
     h1 {
         font-size: 2.5rem;
     }
-
     /* Navbar dropdown toggle styling */
     nav {
         width: fit-content;
     }
-
     #menu,
     #socials {
         font-size: 1.4rem;
     }
-
     /* Hero image */
     .hero-image {
         background: url(../images/hero-image.jpg) no-repeat center center/cover;
         top: 4.8rem;
     }
-
     .centered-text {
         padding: 1rem 0 0 2rem;
         font-size: 2rem;
     }
-
     .color-box {
         display: block;
         margin-left: 2rem;
         top: 26rem;
     }
-
     #text-box {
         font-size: 1.9rem;
         padding: 2rem;
         width: 650px;
     }
-
     /* Main content */
     /* My Mission and About me section */
     .mission-container {
         gap: 2.8rem;
     }
-
     .mission-text,
     about-text {
         font-size: 1.3rem;
     }
-
     #mission-heading,
     #about-heading {
         font-size: 1.8rem;
     }
-
     #mission-image,
     #about-image {
         height: 650px;
     }
-
     .border-right,
     .border-left {
         margin-top: 7rem;
     }
-
     /* Services page */
     /* Hero image (2nd) */
     .hero-image-services {
         background: url(../images/services-hero.jpg) no-repeat center center/cover;
         top: 4.8rem;
     }
-
     /* Services content*/
     #services-heading {
         font-size: 1.4rem;
     }
-
     td {
         font-size: 1.1rem;
     }
-
     #contact-me {
         font-size: 1.1rem;
     }
-
     /* Contact page */
     #text-container {
         margin-top: 2rem;
     }
-
     #contact-heading {
         font-size: 2.5rem;
     }
-
     label {
         font-size: 1.5rem;
     }
-
     input,
     textarea {
         font-size: 1.2rem;
     }
-
     input {
         height: 40px;
     }
-
     textarea {
         height: 100px;
     }
-
     #submit-button {
         font-size: 1.3rem;
     }
-
     /* Footer */
     h3 {
         font-size: 1.4rem;
     }
-
     #meditation-text,
     #socials-footer {
         font-size: 1.1rem;
     }
-
     #meditation-button {
         font-size: 0.8rem;
     }
-
     #socials-text {
         font-size: 0.9rem;
     }
-
     /* Media query: Tablets and larger (1200px and up) */
     @media screen and (min-width: 1200px) {
-
         /* Header */
         h1 {
             font-size: 2.8rem;
         }
-
         /* Navbar dropdown toggle styling */
         #menu,
         #socials {
             font-size: 1.3rem;
         }
-
         /* Hero image */
         .hero-image {
             top: 5.3rem;
         }
-
         /* Services page */
         #services-heading {
             font-size: 1.9rem;
         }
-
         td {
             font-size: 1.4rem;
         }
-
         #contact-me {
             font-size: 1.5rem;
         }
-
         /* Contact - Thank you page */
         #thank-heading {
             font-size: 1.8rem;
         }
-
         #thank-text {
             font-size: 1.5rem;
         }
-
         #quote {
             font-size: 1.6rem;
         }
-
         /* Footer */
         h3 {
             font-size: 1.5rem;
         }
-
         #meditation-text,
         #socials-footer {
             font-size: 1.2rem;
         }
-
         #button-text {
             font-size: 0.9rem;
         }
-
         #socials-text {
             font-size: 1rem;
         }
