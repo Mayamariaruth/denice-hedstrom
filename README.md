@@ -188,21 +188,25 @@ _External pages credit_
 
 ### Content 
 
-- The texts for the home page was given by the client Denice Hedstrom.
-- The different offerings on the services page are all real offerings and programs that Denice has.
-- The social media links are real links to Denice Instagram page and Youtube channel.
+- The texts for the home page were provided by the client Denice Hedstrom.
+- The offerings on the services page were provided by Denice Hedstrom.
+- The social media links were provided by Denice Hedstrom and link to her real Instagram page and Youtube channel.
 - The contact form is a mock form that opens a fourth page with a thank you note.
 - The icons in the footer/navigation bar were taken from [Font Awesome](https://fontawesome.com/)
-- The meditation link in the footer is a real free meditation created and shared by Denice.
+- The meditation link in the footer was shared by Denice Hedstrom.
 
 ### Media
 
-- The images used on the home page, services page and contact page are real photos of Denice that she uses for her work.
+- The images used on the home page, services page and contact page were provided by Denice Hedstrom.
+- [RedKetchup](https://redketchup.io/image-resizer) was used to resize images.
+- 
+- 
+- 
 
 ### General reference
 
-- I relied upon my learnings from the Code Institute, as well as the walk-through of the Love Running project. There can be some similiarities in the code but I credited the sections where the code didn't deviate fully.
-- W3Schools and StackOverflow were the ones mostly used for external references, offering much needed explanations or inspirations. 
+- I relied upon my code learnings from the Code Institute, as well as the walk-through of the Love Running project. There can be some similiarities in the code but I credited the sections where the code didn't deviate fully.
+- W3Schools and StackOverflow were the ones mostly used for external references, offering much needed explanations and inspirations. 
 
 
 

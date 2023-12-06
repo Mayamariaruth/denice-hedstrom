@@ -204,9 +204,13 @@ main {
     margin-top: 1.6rem;
 }
 
-#about-image {
+#about-image-mobile {
     height: 400px;
     margin-bottom: 1rem;
+}
+
+#about-image {
+    display: none;
 }
 
 /* Services page */
@@ -524,8 +528,13 @@ footer i {
     }
 
     #about-image {
+        display: flex;
         margin: 1rem 0 2rem;
         height: 600px;
+    }
+
+    #about-image-mobile {
+        display: none;
     }
 
     #image-border {
