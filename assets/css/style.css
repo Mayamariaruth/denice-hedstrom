@@ -440,7 +440,7 @@ footer i {
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header (credit: CI Love running project) */
+    /* Header */
     h1 {
         font-size: 2.2rem;
         margin-bottom: 0.5rem;
@@ -660,7 +660,7 @@ footer i {
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
-    /* Header (credit: CI Love running project) */
+    /* Header */
     h1 {
         font-size: 2.5rem;
     }
