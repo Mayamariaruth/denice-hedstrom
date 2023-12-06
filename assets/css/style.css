@@ -171,7 +171,7 @@ main {
     color: #412a1b;
 }
 
-.border-bottom {
+#border-bottom {
     border-bottom: solid 1px #412a1b;
     padding: 1.2rem 0;
 }
@@ -201,7 +201,7 @@ main {
 }
 
 #margin-top {
-    margin-top: 1rem;
+    margin-top: 1.6rem;
 }
 
 #about-image {

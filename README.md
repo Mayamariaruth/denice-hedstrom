@@ -1,5 +1,7 @@
 # Denice Hedstrom Global
 
+## Introduction
+
 This site was created for the magical healer Denice Hedstrom. It aims to highlight who she is and what she brings to the world in her work for the purpose of manifesting women who deeply need her guidance and support to level up their lives and unshackle trauma and doubts that hold them back. 
 
 This site hopes to be an invitation for women (of course, men are always welcome too!) looking for a change in their reality and a connecting portal for Denice and future clients.
@@ -8,31 +10,66 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
 
 ![Responsive Mockup](docs/screenshots/am-i-responsive.jpg)
 
-## Target audience 
+## Table of Contents:
+1. [**Introduction**](#introduction)
+1. [**Design**](#Design)
+    * [***Target audience***](#target-audience)
+    * [***User Stories***](#user-stories)
+    * [***Site aims***](#site-aims)
+    * [***Color palette***](#color-palette)
+    * [***Typography***](#typography)
+1. [**Features**](#Features)
+    * [***Navigation bar***](#navigation-bar)
+    * [***Hero image***](#hero-image)
+    * [***My mission***](#my-mission-section)
+    * [***About me***](#about-me-section)
+    * [***Footer***](#the-footer)
+    * [***Services***](#services)
+    * [***Contact***](#contact)
+    * [***Contact feedback***](#contact-feedback)
+    * [***Future features***](#future-features)
+1. [**Testing**](#testing)
+    * [***Validator testing***](#validator-testing)
+1. [**Deployment**](#deployment)
+1. [**Bugs**](#bugs)
+    * [***Fixed Bugs***](#fixed-bugs)
+    * [***Unfixed Bugs***](#unfixed-bugs)
+1. [**Credits**](#credits)
+    * [***Code***](#code)
+    * [***Content***](#content)
+    * [***Media***](#media)
+    * [***General reference***](#general-reference)
+
+## Design
+
+### Target audience 
 
 * Women who are needing a change in their lives.
 * Women who are drawn to spirituality and alternative medicine/practices.
 * Women who are looking for a mentor and community.
 * Women who have tried going the 'normal' route (doctors and therapists) but are now searching for other ways of healing.
 
-## User stories
+### User stories
 
 
-## Site aims 
+### Site aims 
 
 
 
-## Client design wishes
+### Client design wishes
 
 * A simple and clean website that reflects who she is as a person and as a professional practitioner in the healing sphere.
 * Colors consisting of pastel shades of gold/yellow which is her favourite color.
 * 
 
+### Color palette
+
+### Typography
+
+
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-__Navigation Bar__
+### Navigation Bar
 
   - The navigation bar can be seen on all three main pages, as well as on the fourth contact form feedback page. 
   - It features the title with a link to the home page, home page, services page, contact page and social media links for easy access.
@@ -41,54 +78,61 @@ __Navigation Bar__
 
   ![Nav Bar](docs/screenshots/header-nav.jpg)
 
-__Hero image__
+### Hero image
 
 - The hero image section consists of an image of Denice in action during a retreat banging on a shamanic drum she calls Luna. It's meant to immediately capture the user with the harmonius energy felt from the image, as well as showcase her work as a Shaman.
 - It also consists of two text overlays which explain the purpose of the work Denice does, making it easier to catch the eye of the people who are there for 'Abundance. Purpose. Freedom'.
 
 ![Hero Image](docs/screenshots/hero-main.jpg)
 
-__My mission section__
+### My Mission section
 
 - This sections aim is very straightforward I would say, to give a brief statement of what Denice's 'mission' is with her work and what she aims to achieve with every client in her space.
 - This will also catch the eye of the people who resonate with the work she does.
+- It features an image of her praying with a feather (which is an item she works a lot with for healings).
 
 ![My Mission](docs/screenshots/mission.jpg)
 
-__About me section__
+### About Me section
 
-- This section is also very self-explanatory, it shares a brief  about Denice and 
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+- This section is also very self-explanatory, it shares a brief story about Denice's life and her passion for her work, which is very important for a more personal feel to the site and to invite users to get a deeper understanding of Denice.
+- It features a more portrait style picture of Denice, perfectly fitting the more personal section.
 
 ![About me](docs/screenshots/about.jpg)
 
-- __The Footer__ 
+### Footer
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+- The footer is very much in line with the theme of the site and it allows users to access a free meditation by Denice. 
+- It features a short encouraging text and a button that takes users to a Google Drive link with a free meditation, this is a great way to give users a preview of Denice's work and allow them to connect with her indirectly which can help them decide if they feel safe doing healing work with her.
+- The footer also consists of social media links with a short text letting users know there is more magical content to be found.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](docs/screenshots/footer.jpg)
 
-- __Gallery__
+### Services
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+- This page highlights her 'offerings' and their prices, these are the different programs or services she has available to clients. There is also a button to contact her for more information, which takes the user to the Contact page.
+- It also features an image of the regular tools she uses for her sessions, which flows very well with the content of the page.
+- This page is, of course, very crucial to showcase her different services and allow users to contact her to start working together.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Services](docs/screenshots/services.jpg)
 
-- __The Sign Up Page__
+### Contact
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+- The contact page consists of a contact form where users can fill in their names, emails, a subject, a message (with longer text input) and a 'submit' button.
+- There is also a very fitting image alongside the form that shows Denice smiling and giving thanks.
+- This page is very important to allow users to be able to contact Denice and for Denice to be able to sign new clients up.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact](docs/screenshots/contact.jpg)
 
+### Contact feedback
 
-# Design
+- This is the page the users are taken to when they press the 'submit' button on the contact form. It has a cute little 'thank you' note with a quote to be a little bit less formal and send some good energy to the users.
+- It has all the same features as the other pages so the user can continue scrolling on the site if they wish.
+- This provides a better user experience and it gives off a good energy, which is very important for a site for a healer.
 
+![Thank you](docs/screenshots/thank-you.jpg)
 
-### Features Left to Implement
+### Future features
 
 - Another feature idea
 
@@ -110,10 +154,6 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
 ## Deployment
 
 To deploy the site to Github pages, I went through below steps: 
@@ -126,6 +166,13 @@ To deploy the site to Github pages, I went through below steps:
 
 Live link to the site - https://mayamariaruth.github.io/denice-hedstrom/
 
+## Bugs
+
+### Fixed Bugs
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Credits 
 
@@ -146,11 +193,16 @@ _External pages credit_
 - The social media links are real links to Denice Instagram page and Youtube channel.
 - The contact form is a mock form that opens a fourth page with a thank you note.
 - The icons in the footer/navigation bar were taken from [Font Awesome](https://fontawesome.com/)
+- The meditation link in the footer is a real free meditation created and shared by Denice.
 
 ### Media
 
 - The images used on the home page, services page and contact page are real photos of Denice that she uses for her work.
 
+### General reference
+
+- I relied upon my learnings from the Code Institute, as well as the walk-through of the Love Running project. There can be some similiarities in the code but I credited the sections where the code didn't deviate fully.
+- W3Schools and StackOverflow were the ones mostly used for external references, offering much needed explanations or inspirations. 
 
 
 
