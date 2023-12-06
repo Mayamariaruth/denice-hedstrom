@@ -16,7 +16,7 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
     * [***Target audience***](#target-audience)
     * [***User Stories***](#user-stories)
     * [***Site aims***](#site-aims)
-    * [***Color palette***](#color-palette)
+    * [***Color scheme***](#color-scheme)
     * [***Typography***](#typography)
 1. [**Features**](#Features)
     * [***Navigation bar***](#navigation-bar)
@@ -60,11 +60,12 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
 
 * A simple and clean website that reflects who she is as a person and as a professional practitioner in the healing sphere.
 * Colors consisting of pastel shades of gold/yellow which is her favourite color.
-* 
+* Access to her free content, which is incredibly important for her brand to stay accessible for all.
+* Specific images chosen by her.
 
-### Color palette
-
-
+### Color scheme
+The client had requested pastel shades of gold/yellow and a simple website so I went with below colors of gold/yellow and brown for the site and black/dark brown for texts. 
+I utilized the Contrast grid by Eightshapes to test my color combos so the colors complied with the highest accessibility.
 
 ![Color](docs/screenshots/color-contrast.jpg)
 
