@@ -8,7 +8,7 @@ This site hopes to be an invitation for women (of course, men are always welcome
 
 Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/denice-hedstrom/)
 
-![Responsive Mockup](docs/screenshots/am-i-responsive.jpg)
+![Responsive Mockup](docs/screenshots/am-i-responsive.png)
 
 ## Table of Contents:
 1. [**Introduction**](#introduction)
@@ -29,9 +29,14 @@ Link to the live site here - [Denice Hedstrom](https://mayamariaruth.github.io/d
     * [***Contact feedback***](#contact-feedback)
     * [***Future features***](#future-features)
 1. [**Testing**](#testing)
-
-
+    * [***Manual testing***](#manual-testing)
     * [***Validator testing***](#validator-testing)
+    * [***Lighthouse testing***](#lighthouse-testing)
+       * [*Home page*](#home-page)
+       * [*Services page*](#services-page)
+       * [*Contact page*](#contact-page)
+       * [*Contact feedback page*](#contact-feedback-page)
+    * [***Wave accessability evaluation***](#wave-accessbility-evaluation)
 1. [**Deployment**](#deployment)
 1. [**Bugs**](#bugs)
     * [***Fixed Bugs***](#fixed-bugs)
@@ -90,24 +95,32 @@ The fonts were sourced from Google Fonts.
 ### Navigation Bar
 
   - The navigation bar can be seen on all three main pages, as well as on the fourth contact form feedback page. 
-  - It features the title with a link to the home page, home page, services page, contact page and social media links for easy access.
+  - It features fully functional and tested links:
+    * The title with a link to the home page
+    * Home page link
+    * Services page link
+    * Contact page link
+    * Social media links (to give the user easier access than having to scroll down to the footer).
   - For mobile, it features a toggle button in the shape of a 'burger' (three horizontal lines icon) that is fully responsive when clicked, exposing and/or hiding the navigation bar. 
-  - This feature is crucial for easy navigation on the page and to highlight the different sections available.
+  - This feature is crucial for easy navigation on the page and to highlight the different sections available to the user.
 
   ![Nav Bar](docs/screenshots/header-nav.jpg)
 
 ### Hero image
 
-- The hero image section consists of an image of Denice in action during a retreat banging on a shamanic drum she calls Luna. It's meant to immediately capture the user with the harmonius energy felt from the image, as well as showcase her work as a Shaman.
-- It also consists of two text overlays which explain the purpose of the work Denice does, making it easier to catch the eye of the people who are there for 'Abundance. Purpose. Freedom'.
+- The hero image section consists of an image of Denice during a retreat banging on a shamanic drum she calls Luna. It's meant to immediately capture the user with the harmonius energy felt from Denice in the midst of her work, as well as to display what kind of site the user has entered.
+- It also consists of two text overlays which explain the purpose of the work Denice does, making it easier to catch the eye of the people who are there for 'Abundance. Purpose. Freedom' and who are wanting to 'activate their potential'.
+- The first text has a dark brown color with an opacity to make it softer and blend into the background better.
+- The second text is enveloped in a color that matches the image and color scheme and the text is white, all to display it as a separate text and catch the eye of the user.
 
-![Hero Image](docs/screenshots/hero-main.jpg)
+![Hero Image](docs/screenshots/hero-home.png)
 
 ### My Mission section
 
 - This sections aim is very straightforward I would say, to give a brief statement of what Denice's 'mission' is with her work and what she aims to achieve with every client in her space.
-- This will also catch the eye of the people who resonate with the work she does.
+- This will also catch the eye of the people who resonate with the work she does and how she expresses herself.
 - It features an image of her praying with a feather (which is an item she works a lot with for healings).
+- I wanted this section very simple to focus the attention on her mission and the image which complements the feeling of the section.
 
 ![My Mission](docs/screenshots/mission.jpg)
 
@@ -115,30 +128,35 @@ The fonts were sourced from Google Fonts.
 
 - This section is also very self-explanatory, it shares a brief story about Denice's life and her passion for her work, which is very important for a more personal feel to the site and to invite users to get a deeper understanding of Denice.
 - It features a more portrait style picture of Denice, perfectly fitting the more personal section.
+- I added the horizontal lines next to the image to fill out the space and give some more dimension to the section, as well as to complement it to the borders (heading border, border-bottom in text) visible on the page.
 
 ![About me](docs/screenshots/about.jpg)
 
 ### Footer
 
 - The footer is very much in line with the theme of the site and it allows users to access a free meditation by Denice. 
-- It features a short encouraging text and a button that takes users to a Google Drive link with a free meditation, this is a great way to give users a preview of Denice's work and allow them to connect with her indirectly which can help them decide if they feel safe doing healing work with her.
-- The footer also consists of social media links with a short text letting users know there is more magical content to be found.
+- It features a short encouraging text and a fully functional button that takes users to a Google Drive link with a free meditation.
+- This is a great way to give users a preview of Denice's work and allow them to connect with her indirectly which can help them decide if they feel safe doing healing work with her.
+- The footer also consists of fully functional social media links with a short text letting users know there is more magical content to be found.
 
 ![Footer](docs/screenshots/footer.jpg)
 
 ### Services
 
-- This page highlights her 'offerings' and their prices, these are the different programs or services she has available to clients. There is also a button to contact her for more information, which takes the user to the Contact page.
+- This page highlights her 'offerings' and their prices, these are the different programs or services she has available to clients. There is also a fully functional button to contact her for more information, which takes the user to the Contact page.
 - It also features an image of the regular tools she uses for her sessions, which flows very well with the content of the page.
-- This page is, of course, very crucial to showcase her different services and allow users to contact her to start working together.
+- This page is, of course, very crucial to showcase her different services and allow users to contact her to start working together if they feel drawn to her services.
 
 ![Services](docs/screenshots/services.jpg)
 
 ### Contact
 
-- The contact page consists of a contact form where users can fill in their names, emails, a subject, a message (with longer text input) and a 'submit' button.
-- There is also a very fitting image alongside the form that shows Denice smiling and giving thanks.
+- The contact page consists of a contact form where users can fill in their names, email (created with the 'email' input to make sure they enter an actual email), a subject, a message (with longer text input) and a fully functioning 'submit' button.
+- Every input needs to be filled in, otherwise the user receives a message saying 'Please fill in this field'. This was achieved by adding 'Required' to every input.
+- There is also an image alongside the form that shows Denice smiling and giving thanks, which fits the theme of the page (she's thanking users for contacting her).
 - This page is very important to allow users to be able to contact Denice and for Denice to be able to sign new clients up.
+
+__The contact form is a mock form created with the 'GET' method that leads to another page with a note to the user__
 
 ![Contact](docs/screenshots/contact.jpg)
 
@@ -146,7 +164,7 @@ The fonts were sourced from Google Fonts.
 
 - This is the page the users are taken to when they press the 'submit' button on the contact form. It has a cute little 'thank you' note with a quote to be a little bit less formal and send some good energy to the users.
 - It has all the same features as the other pages so the user can continue scrolling on the site if they wish.
-- This provides a better user experience and it gives off a good energy, which is very important for a site for a healer.
+- This page improves user experience and it gives off a good energy, which is very important for a site for a healer.
 
 ![Thank you](docs/screenshots/thank-you.jpg)
 
@@ -162,6 +180,7 @@ __Services page__
 - I would add more content to explain shortly what the different offerings entail and give them all a section each on the page. For a bigger project, I would create a separate page for each offering and have buttons linking to Denice's calendly instead for direct booking.
 
 __Contact page__
+- I would create a real contact form (since this one is a mock one) with the 'POST' method.
 - I would change the background to an image to make the page look a bit more playful, it looks a bit simple at the moment.
 
 __Thank you page__
@@ -169,19 +188,83 @@ __Thank you page__
 
 ## Testing 
 
-
-
-
-
-
+### Manual testing
+I manually tested this site in multiple ways highlighted below:
+* Tested every feature and its responsiveness through a preview browser in CodeAnywhere, as well as through an extension of a live server in VScode.
+* Deployed the site in an early stage and received feedback from a professional developer (mentor), as well as students in my community.
+* Tested the site for cross-compatability in the two most used browsers, Chrome and Safari.
+* I used DevTools to easily move between different screen sizes, simulating sizes between 360px up to 1500px.
 
 ### Validator Testing 
-
+I tested all the pages in the validators to make sure they all passed.
 - HTML
-  - No errors were returned when passing through the official W3C validator ![W3C validator](docs/screenshots/html-validator.png)
+  - There were no errors present when passing through the official W3C validator ![W3C validator](docs/screenshots/html-validator.png)
 
 - CSS
-  - No errors were found when passing through the official Jigsaw validator ![(Jigsaw) validator](docs/screenshots/css-validator.jpg)
+  - There were no errors present when passing through the official Jigsaw validator ![(Jigsaw) validator](docs/screenshots/css-validator.jpg)
+
+### Lighthouse testing 
+
+This testing was done in an incognito window in Chrome to make sure the results were not influenced by browser extensions.
+
+The main issue I encountered on every page (both mobile and desktop) was the size of the images and after reducing the sizes, all pages except the home page achieved over 90 performance.
+
+#### Home page
+__Mobile version:__
+I encountered troubles on this page with the mobile testing due to images being too large and that there was no width on the images in the sections (only height).
+- I resized the images probably over five times to get them as small as I could without impacting the quality too much (images are now all under 200KB which is the most I can do without affecting the quality too much) but Lighthouse still flagged my LCP as too high for the Hero image.
+- I added a fitting width to the height of the images but Lighthouse then flagged that the images should be their original width and height instead and it was not allowing me to design the images smaller to fit the style of the site. 
+
+All in all, I'm happy with being above 80 for mobile screens after trying to fix the issues multiple times.
+
+__After speaking with fellow students about the Lighthouse testing, it seems there were multiple others who encountered similar problems as me with the mobile testing. Even after reducing images, they still received the same performance scores under 80__
+
+![Mobile home page](docs/screenshots/home-mobile.png)
+
+__Desktop version:__
+
+![Desktop home page](docs/screenshots/home-desktop.png)
+
+#### Services page
+__Mobile version:__
+
+![Mobile services page](docs/screenshots/services-mobile.png)
+
+__Desktop version:__
+
+![Desktop services page](docs/screenshots/services-desktop.png)
+
+#### Contact page
+__Mobile version:__
+
+![Mobile contact page](docs/screenshots/contact-mobile.png)
+
+__Desktop version:__
+
+![Desktop contact page](docs/screenshots/contact-desktop.png)
+
+#### Contact feedback page
+__Mobile version:__
+
+![Mobile contact feedback page](docs/screenshots/thank-mobile.png)
+
+__Desktop version:__
+
+![Desktop contact feedback page](docs/screenshots/thank-desktop.png)
+
+### Wave accessbility evaluation
+
+I also used the Wave evaluation tool to make sure I covered all my bases. 
+Two issues popped up (which are also highlighted in the Bugs section):
+- Toggle down button flagged that there was no corresponding accessibility text to the label.
+   * This was sorted with assistance of my mentor by adding a span tag inside the label tag and adding an accessibility text. I then added a class to the span opening tag and set it to 'Display: none'. It was also necessary to add 'Aria-hidden="False"' to the opening tag to expose the text to assistive technology.
+
+- The access to the home page through the title didn't work and the a link flagged the same issue as the toggle button (no accessability text).
+   * I realised I had not added the title h1 inside the a tag, it was directly below it and so they were not linked. After adding the h1 inside the a tag, the issue was resolved.
+
+The evaluation is now free from errors and below is taken from the Home page but the results match on all pages.
+
+![Wave evaluation](docs/screenshots/wave.png)
 
 ## Deployment
 
@@ -193,29 +276,40 @@ To deploy the site to Github pages, I went through below steps:
 - Press Save and go back to the Code page of your repository.
 - After a couple minutes, refresh the page and the succesfully deployed site will be found on the right hand side of the page under 'Deployments' with the name "Github pages".
 
-Live link to the site - https://mayamariaruth.github.io/denice-hedstrom/
+Live link to the site - (https://mayamariaruth.github.io/denice-hedstrom/)
 
 ## Bugs
 
 ### Fixed Bugs
+1. **Issue**
+    * @import not working for Google fonts, gives error message “Import statements do not load in parallel”.
+* **Fix**
+    * I added the fonts as a link in the HTML head section instead.
 
-Bug: @import not working for Google fonts (“Import statements do not load in parallel”)
-Fix: added the fonts as a link in HTML head section
+2. **Issue**
+    * Navigation bar sits on top of h1 when creating toggle button.
+* **Fix**
+    * Removed 'display flex' and 'flex-direction: column' from header to allow navbar to sit directly under h1.
 
-Bug: List bullet points did not remove 
-Fix: had to add the list-style-type in a UL CSS style
+3. **Issue**
+    * Meditation button's background-color didn't show.
+* **Fix**
+    * I had accidentally written 'color', instead of 'background-color' so when I updated that it worked.
 
-Bug: navbar sits on top of h1 when creating toggle
-Fix: remove display flex, flex-direction:column from header to allow navbar to sit under h1
+4. **Issue**
+    * Client images were too large and slowed down the load time of the site, specifically for mobile screens.
+* **Fix**
+    * Resize the images on [Red Ketchup](https://redketchup.io/) and re-upload them to the Images folder as two separate images, one for mobile and one for larger screens.
 
-Bug: nav bar toggle and menu bar doesn’t follow the right side with the change of screen size
-Fix: adjust h1 to take up the remaining space in the header with % (there was space over, which is why they didn’t move with the change of screen)
+5. **Issue**
+    * Toggle down button flagged that there was no corresponding accessibility text to the label ([Wave](#wave-evaluation)).
+* **Fix**
+    * I added a span tag inside the label tag and added an accessibility text. I then added a class to the span and set it to 'Display: none', as well ass included 'Aria-hidden="False"' inside the span opening tag to expose the text to assistive technology.
 
-Bug: Button color not showing
-Fix: Had to write background-color, not Color in CSS
-
-
-
+6. **Issue**
+    * The access to the home page through the title didn't work and the a link flagged the same issue as the toggle button (no accessability text).
+* **Fix**
+    * I had not added the title h1 inside the a tag, it was directly below it and so they were not linked. After adding the h1 inside the a tag, the issue was resolved.
 
 ### Unfixed Bugs
 
@@ -246,8 +340,8 @@ _External pages credit_
 
 - The images used on the home page, services page and contact page were provided by Denice Hedstrom.
 - [RedKetchup](https://redketchup.io/image-resizer) was used to resize images.
-- 
-- 
+- Fonts were aquired from [Google Fonts](https://fonts.google.com/).
+- Social media icons were aquired from [Font Awesome](https://fontawesome.com/).
 - 
 
 ### General reference
