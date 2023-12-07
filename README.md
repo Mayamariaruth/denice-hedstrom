@@ -276,7 +276,7 @@ To deploy the site to Github pages, I went through below steps:
 - Press Save and go back to the Code page of your repository.
 - After a couple minutes, refresh the page and the succesfully deployed site will be found on the right hand side of the page under 'Deployments' with the name "Github pages".
 
-Live link to the site - (https://mayamariaruth.github.io/denice-hedstrom/)
+Live link to the site - [Denice Hedstrom](https://mayamariaruth.github.io/denice-hedstrom/)
 
 ## Bugs
 
@@ -342,7 +342,7 @@ _External pages credit_
 - [RedKetchup](https://redketchup.io/image-resizer) was used to resize images.
 - Fonts were aquired from [Google Fonts](https://fonts.google.com/).
 - Social media icons were aquired from [Font Awesome](https://fontawesome.com/).
-- 
+- [Am I Responsive](https://ui.dev/amiresponsive) was used to generate the inital image of the ReadME to showcase how the site looks on different screens.
 
 ### General reference
 
